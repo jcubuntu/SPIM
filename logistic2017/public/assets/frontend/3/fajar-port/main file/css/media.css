@@ -1,0 +1,191 @@
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (Max-width : 1280px){
+#wrap .container{ width:96%;}
+.header .navi li a{ margin:0 0 0 64px;}
+.cd-header{ top: -15px;}
+.services .serv-sec{ width:29.5%}
+.footer .fot-sec{ width:29%;}
+.footer .get-touch .social a{ font-size:16px;}
+.cd-nav-trigger {left: 6% !important; top: 28px !important;}
+.cd-primary-nav-trigger { top: 51px !important; }
+.main-banner .my-intro{ margin:0 0 0 5% ;}
+
+/*..... About Us ......*/
+.about .team-strategy {background: url(../images/team-plan.jpg) no-repeat 56% 0; height: 629px; background-size: 162%;}
+.about .our-plans .plan-sec{ min-height:391px;}
+.team-members figcaption h3{ margin:12% 0 0 0 ;}
+.about .next-page .next-page-sec{ width:49.8%;}
+
+/*..... Contact Us ......*/
+.contact-us .get-touch .hello-us {   background-size: 100%;}
+
+/*..... News ......*/
+.news a.news-sec .news-detail{ width:100%;}
+.post-detail img.main-img{ width:100%;}
+.share-buttons ul li a{ padding: 16px 90px; }
+.leave-msg .fields input[type=text]{ width:30.4%;}
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (Max-width : 992px){
+#wrap .container{ width:96%;}
+.header .navi li a{ margin: 0 0 0 24px; font-size: 15px;}
+.cd-header{ top: -15px;}
+figure.effect-sadie h2{ font-size:45px !important;}
+.creative-studio p{ width:100%;}
+.services .serv-sec{ width:28.4%;}
+.footer .fot-sec{ width:28%;}
+.footer .get-touch .social a{ font-size:18px;} 
+
+.port-content .detail-left{ width:50% !important;}
+.port-content .detail-right{ width:50% !important;}
+
+.cd-nav .cd-navigation-wrapper{ padding:100px 0 0 5% !important;}
+.cd-nav .cd-primary-nav a {font-size: 34px !important;  }
+
+/*..... About Us ......*/
+.about .our-plans .plan-sec span{ display:none;}
+.about .our-plans .plan-sec { min-height: 142px; width: 100%; padding: 21px 0; border-right:none;}
+.about .our-plans .plan-sec h5{ margin:0px;}
+.about .team-strategy{ height:491px; background-size: 163%;}
+.about .our-clients .clients-logo li{width: 19.5%;} 
+.team-members figcaption h3{ margin:6% 0 0 0;}
+.team-members figcaption p{ font-size: 16px; line-height:21px ;}
+.about .what-we-do .milestone-counter span.stat-count{ font-size:62px;}
+.about .next-page .next-page-sec{ width:49.8%;}
+.footer2 ul.social li a{ margin:0 8px;}
+
+/*..... Contact Us ......*/
+.contact-us .get-touch .hello-us .detail span.met-us{ font-size:36px;}
+.contact-us .get-touch .hello-us .detail .social-icons span{ font-size:26px;}
+.contact-us .get-touch .hello-us .detail{ margin:54% 0 0 0;}
+.contact-us .get-touch .hello-us {   background-size: 120%;}
+
+/*..... News ......*/
+.share-buttons ul li a{ padding: 16px 50px; }
+.leave-msg .fields input[type=text]{ width:29.5%;}
+.comments .comment-sec .detail{ width:90%;}
+}
+ 
+	
+ 
+/* Small Devices, Tablets */
+@media only screen and (Max-width : 768px){
+
+#wrap .container{ width:96%;}
+.navi{ display:none;}
+.cd-primary-nav-trigger{ top:36px !important;}
+.cd-primary-nav a{ font-size:40px;}
+.cd-header{ top: 5px; right:5px;}
+
+.services .serv-sec{ width:98%}
+.creative-studio p{ width:100%; font-size:22px;}
+.portfolio .work{ width:100%;}
+.services .main-title span{letter-spacing: 2px;}
+.footer .fot-sec{ width:100%;}
+.footer .get-touch .social a{ font-size:20px;} 
+.footer .tweet{ margin:24px 0 0 0;}
+#tweet-slide{ min-height:145px;}
+.port-content h1{ font-size:38px;}
+.port-content .detail-left{ width:70% !important;}
+.port-content .detail-right{ width:70% !important;}
+.cd-nav{ width:71% !important;}
+.navigation-is-open main { -webkit-transform: translateX(70%) !important; -moz-transform: translateX(70%) !important; -ms-transform: translateX(70%) !important; -o-transform: translateX(70%) !important;
+transform: translateX(70%) !important; }
+.cd-nav .cd-primary-nav { margin-top: 0px !important;}
+.cd-nav .cd-navigation-wrapper{ padding:100px 0 0 5% !important;}
+.cd-nav .cd-primary-nav a {font-size: 34px !important;  }
+
+/*..... About Us ......*/
+.about .strategy{ width:100%;}
+.about .our-plans{ width:100%;}
+.about .our-plans .plan-sec span{ display:block;}
+.about .our-plans .plan-sec{ min-height:100%;}
+.about .our-clients .clients-logo li{ width:18.5%;}
+.about .team-members .team-sec{ width:100%;}
+.team-members figcaption h3{ margin:25% 0 0 0;}
+.about .what-we-do .milestone-counter { border-right: none; width: 100%; padding:26px 0 36px 0;}
+.about .next-page .next-page-sec{ width:49.7%;}
+.next-page .next-page-sec span{ display:none;}
+.next-page .next-page-sec p{ display:none;}
+.next-page .next-page-sec h2{ font-size:30px;}
+.about .next-page .next-page-sec span.view-more{ display:none;}
+
+/*..... Contact Us ......*/
+.contact-us .get-touch{ width:100%;}
+.contact-us .contact-form{ width:100%;}
+.contact-us .get-touch .hello-us .detail { margin: 40% 0 0 0; }
+.contact-us .contact-form .fields input[type=submit]{  padding: 6.6% 0; }
+
+
+/*..... News ......*/
+.share-buttons ul li a{ padding: 16px 20px; float:none; margin:0 0 0 10px;}
+.leave-msg .fields input[type=text]{   width: 96%;   margin: 0 0 18px 0;}
+.comments .comment-sec .detail{ width:83%;}
+.share-buttons{ text-align:center;}
+.share-buttons span{ float:none;}
+.share-buttons ul { float: none;  margin: 36px 20px 0 0; text-align: center;}
+.share-buttons ul li{ float: none; display:inline-block; }
+
+
+/*..... Mobile Menu ......*/
+
+.cd-primary-nav .cd-label{ margin:0px;}
+.cd-primary-nav li{ margin:0.4em 0;}
+.cd-primary-nav .social-icons span{ font-size:26px; padding:18px 18px;}
+.cd-primary-nav .social-icons {  margin: 40px 0 0 0;}
+}
+
+ 
+/* Extra Small Devices, Phones */
+@media only screen and (Max-width : 480px){
+.creative-studio .icons span { font-size: 48px; margin: 0px 11px;}
+figure.effect-sadie h2{ font-size:30px !important; line-height:32px !important; bottom:15% !important ;}
+.services .main-title span{letter-spacing: 0px; font-size:14px;}
+.cd-primary-nav-trigger{ top:24px; right:10px !important; }
+.cd-primary-nav .social-icons span{ padding:20px; font-size:22px;}
+.header .logo { margin: 28px 0 0 0; width: 168px; }
+.services .serv-sec{ width:96%}
+.copyrights p { font-size: 13px; letter-spacing: 0px;}
+.port-content h1{ font-size:38px;}
+.port-content .detail-left{ width:100% !important;}
+.port-content .detail-right{ width:100% !important;}
+.main-banner .my-intro a{ padding:15px 0 !important; width:92%; text-align:center;}
+.main-banner .my-intro{  top: 22%;   text-align: center;}
+
+/*..... About Us ......*/
+.next-page .next-page-sec h2 {font-size: 20px; }
+.about .our-clients .clients-logo li {width: 100%; border-right:none;}
+.about .our-clients .clients-logo li img { width: 256px; }
+.about .our-clients .clients-logo ul{ border-bottom:none;}
+.footer2 ul.social li a {   margin: 0 11px;   letter-spacing: 0;   font-size: 14px;  line-height: 26px; }
+
+/*..... Contact Us ......*/
+.sub-banner .text h1{ font-size:42px;}
+.contact-us .get-touch .hello-us .detail .social-icons span { padding:15px;}
+.contact-us .get-touch .hello-us {   background-size: 180%;}
+
+/*..... News ......*/
+.news .news-sec li {    margin: 0 0; }
+.news .more-posts .newest{ font-size:18px;}
+.news .more-posts .older{ font-size:18px;}
+.share-buttons ul li a {  padding: 16px 6px; border: none;}
+.share-buttons ul li a.pt:hover{ background:none; color:#ce1c28; border:none;}
+.share-buttons ul li a.tw:hover{ background:none; color:#1eaae9; border:none;}
+.share-buttons ul li a.fb:hover{ background:none; color:#214285; border:none;}
+.comments .comment-sec .detail{ width:75%;}
+.pro-detail-sec .social-with-number li a{ padding:6px 0px 6px 12px; min-width:52px;}
+.project-detail .two-imgs img{ width:100%;}
+
+/*..... Footer ......*/
+p.copyright{  font-size: 13px;  letter-spacing: 0;}
+}
+ 
+@media only screen and (Max-width : 320px){
+ 
+}

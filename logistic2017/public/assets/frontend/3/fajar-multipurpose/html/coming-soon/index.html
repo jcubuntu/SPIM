@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <base href="" />
+	<!-- Basic Page Needs
+
+     ================================================== -->
+	 
+	 <meta charset="utf-8">
+	 
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+     <title>Fajar</title>
+	
+	 
+	
+     <meta name="description" content="">
+    
+     <meta name="keywords" content="">
+    
+     <meta name="author" content="">
+
+	 
+	 <!-- Mobile Specific Metas
+    
+     ================================================== -->
+    
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    
+     <meta name="format-detection" content="telephone=no">
+	 
+	 
+    <!-- CSS
+    
+     ================================================== -->
+
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Page styling -->
+	<link rel="stylesheet" href="css/comingsoon.css">
+	
+	<!-- validation -->
+	<link rel="stylesheet" href="validationEngine/validationEngine.jquery.css">
+	
+	<!-- Modal Popup -->
+	<link rel="stylesheet" href="css/component.css">
+	
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<body class="ie9">
+	<![endif]-->
+	
+	<!-- SCRIPTS
+    
+     ================================================== -->
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+  </head>
+  <body>
+    
+	
+	
+	<div id="wrapper">
+		
+		
+		
+		<div class="main">
+		<div class="clouds-bg">
+		
+			<div class="clouds_one"></div>
+
+			<div class="clouds_two"></div>
+
+			<div class="clouds_three"></div>
+		</div>
+			<header class="header">
+				<a href="#."><img src="images/logo.png" alt=""></a>
+			</header>
+			
+			<section class="content">
+				<section class="content-inner">
+					<h1 class="light">Comming Soon</h1>
+					<p>We're currently working on creating something fantastic. We'll be here soon, subscribe to be notified.</p>
+					<a href="#." class="btn md-trigger" data-modal="modal-4">Notify me</a>
+			</section>
+			
+			<footer class="footer">
+				<p class="copyright">Website by Brighthemes &copy; 2015. All Right Reserved.</p>
+				<ul class="social">
+					<li><a href="#."><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#."><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#."><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#."><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</footer>
+		
+		</div>
+		
+		
+		
+		<div class="md-modal md-effect-4" id="modal-4">
+			<div class="md-content">
+				<div class="form">
+					<h3>Notify me</h3>
+					<p>Enter your email address to get notified when site is ready</p>
+					<form id="notify-form">
+						<input type="text" placeholder="Insert Your Email" class="validate[required, custom[email]]" data-prompt-position="topLeft:0">
+						<input type="submit" value="Send">
+					</form>
+					<button class="md-close"><i class="fa fa-close"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+		
+		
+	</div><!-- End Wrapper -->
+	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    
+	
+	<!--.........................validationEngine Starts.............................-->
+	
+	<script src="validationEngine/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="validationEngine/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- Modal Popup -->
+	<script src="js/classie.js"></script>
+	<script src="js/modalEffects.js"></script>
+	
+	<script>
+		(function () {
+			"use strict";
+			//jQuery("#notify-me").click(function(){
+				//jQuery("#wrapper").addClass("move-top");
+			//});
+			//jQuery("#close-form").click(function(){
+				//jQuery("#wrapper").removeClass("move-top");
+			//});
+			//Form Validation
+			jQuery("#notify-form").validationEngine();
+		})(jQuery);
+	</script>
+	
+	
+  </body>
+</html>

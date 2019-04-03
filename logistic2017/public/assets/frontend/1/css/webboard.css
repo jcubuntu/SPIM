@@ -1,0 +1,36 @@
+#topic-list tbody td:first-child {
+	width: auto;
+}
+#topic-list tbody td:first-child i.fa {
+	font-size: 40px;
+	margin-right: 5px;
+	color: #FF5697;
+}
+#topic-list tbody td:first-child p.text-muted {
+	font-size: 12px;
+}
+#topic-list tbody td:nth-child(2) {
+	text-align: center;
+	width: 65px;
+}
+#topic-list tbody td:nth-child(3) {
+	text-align: center;
+	width: 65px;
+}
+#topic-list tbody td:last-child {
+	width: 200px;
+	font-size: 12px;
+}
+#topic-list thead > tr {
+    background: #FF5697;
+    color: #FFF;
+}
+#topic-list tbody td:first-child div > a {
+    font-size: 16px;
+}
+.table tr th,
+.table tr td {
+	padding: 14px !important;
+	font-size: 14px;
+	border: none !important;
+}

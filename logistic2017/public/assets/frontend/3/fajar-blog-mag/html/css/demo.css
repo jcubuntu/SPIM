@@ -1,0 +1,15 @@
+
+#page .header a
+{
+	
+	display: block;
+	width: 40px;
+	height: 41px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	background: #FF3C1F url(../images/mob-menu.png) no-repeat center;
+	border-radius: 5px;
+
+}
+#page .header{ padding:0px;}

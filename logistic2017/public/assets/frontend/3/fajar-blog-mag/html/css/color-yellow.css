@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Default color Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Color Scheme
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+# color			#ee3b24
+# Dark color 
+  for borders	#d9311b
+# Light color 
+  for borders	#ff7260
+
+-------------------------------------------------------------------*/
+
+.navi ul li ul li:hover { background: #EDC527; }
+.Flat_mega_menu ul li a:hover{ color:#EDC527; }
+.feat-sec a.feat-title:hover{ color:#EDC527;} 
+.featured .feat-sec a:hover{ color:#EDC527 ; }
+.featured .feat-sec a:hover i{ text-shadow: 1px 1px 0 #EDC527,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #EDC527, 1px -1px 0 #EDC527, -1px  1px 0 #EDC527, 1px  1px 0 #EDC527; }
+     a.small-title:hover{ color:#EDC527;}
+  .news-sec a.small-title:hover{ color:#EDC527;}
+ul.post-icons a:hover i{ text-shadow: 1px 1px 0 #EDC527,  /* Simulated effect for Firefox and Opera    and nice enhancement for WebKit */
+   -1px -1px 0 #EDC527, 1px -1px 0 #EDC527, -1px  1px 0 #EDC527, 1px  1px 0 #EDC527; }
+ul.post-icons a:hover{ color:#EDC527; }
+.articles .arti-sec a.small-title:hover{ color:#EDC527;}
+.footer2 .about-us a{ color:#EDC527; }
+.feat-posts a.title:hover{ color:#EDC527;}
+.carousel-caption a:hover{   color:#EDC527;}
+.footer .latest-post .pos-sec .detail a:hover{ color:#EDC527;}
+.footer .latest-post .social-icons a:hover{border:solid 3px #EDC527; color:#EDC527; }
+.tags-sec a:hover{ color:#EDC527; border:solid 1px #EDC527; }
+.most-comments .comments i{	color:#EDC527; }
+.caegory li a:hover{ color:#EDC527; }
+.pcss3t-theme-1 > input:checked + label { 	color: #EDC527;}
+.right-sec .form input[type=submit]:hover{ background:#EDC527;}
+.rating span.rate{ color:#EDC527; }
+.expand {background:#EDC527;}
+.Flat_mega_menu ul li .submenu.one_col li:hover > a,
+.Flat_mega_menu ul li .submenu.two_col li:hover > a {color: #EDC527; border-bottom: solid 1px #EDC527;}
+.Flat_mega_menu ul li .submenu.four_col li:hover a {color: #EDC527;	border-bottom: solid 1px #EDC527;}
+.Flat_mega_menu ul li .submenu.img_container.half .two_col li:hover a { color: #EDC527;	border-bottom: 1px solid #EDC527;}
+.top-bar .top-right .demos a:hover{	background:#EDC527; }
+.home2-posts .post-sec .detail a.read-more{ background: #EDC527;}
+ul.icons-sec a:hover{ color:#EDC527; }
+ul.icons-sec a:hover i{ text-shadow: 1px 1px 0 #EDC527,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #EDC527, 1px -1px 0 #EDC527, -1px  1px 0 #EDC527, 1px  1px 0 #EDC527; }
+.more-posts a.older-posts {background: #EDC527; }
+.more-posts a.new-posts {background: #EDC527;}
+.more-posts a:hover{ background: #222; transition: background-color 0.5s ease;}
+.footer .latest-tweets a{	color:#EDC527;}
+.footer .latest-tweets span.date{ 	color:#EDC527;}
+.footer .latest-tweets i{ 	color:#EDC527;}
+.main3-posts .post-sec .detail .text a:hover{ color:#EDC527;}
+.carousel-caption a.read-btn:hover{ background:#EDC527; color:#fff;}
+.cbp-l-filters-alignLeft .cbp-filter-item-active {background-color:#EDC527; border:1px solid #EDC527;}
+.load-more a:hover{ background:#EDC527; border:solid 1px #EDC527;}
+.main5-posts .post-sec .detail a:hover{ color:#EDC527;}
+.pagination ul a.sel{ background:#EDC527; border: solid 1px #EDC527;}
+.pagination ul a:hover{ background:#EDC527; border: solid 1px #EDC527;}
+.contact-us input[type=submit]:hover{background:#EDC527;}
+.post-detail a{ color:#EDC527;}
+.post-detail a:hover{ text-decoration:underline; color:#EDC527;}
+.post-detail .tags a:hover{background:#EDC527; border:solid 1px #EDC527;}
+.comments-sec .user-comment a:hover{color:#EDC527;}
+.leave-form input[type=submit]:hover{ background:#EDC527;}
+.videoGallery .rsThumb.rsNavSelected {  background-color: #EDC527;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

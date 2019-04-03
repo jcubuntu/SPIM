@@ -1,0 +1,61 @@
+.bg-content {
+    background-color: rgba(240, 240, 240, 0.4);
+    padding: 15px;
+}
+.bg-content > .bg-content:not(:last-child) {
+	margin-bottom: 10px;
+    padding: 10px;
+}
+.wp-block-content * {
+	color: #333 !important;
+}
+.content-title {
+	color: #111 !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wp-block-img {
+	float: left;
+	width: 31% !important;
+}
+.wp-block-content {
+	float: left;
+	width: 69%;
+}
+.fiction-description {
+	height: 225px;
+	word-wrap: break-word;
+}
+.star-rating {
+	display: inline;
+}
+.star-rating .fa {
+	font-size: 14px !important;
+	margin-right: 0px !important;
+	color: #333 !important;
+}
+.wp-block-footer li {
+	text-align: center;
+}
+.fiction-btn {
+	margin: 0px;
+}
+.fiction-btn > div {
+	padding: 0px;
+}
+.text-white {
+	color: #FFF !important;
+}
+.info-box {
+	border-bottom: 1px #787878 solid;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.rating-xlarge span.star:before {
+	font-size: 28px;
+}
+.fiction-btn a.btn {
+	border-radius: 0px;
+}

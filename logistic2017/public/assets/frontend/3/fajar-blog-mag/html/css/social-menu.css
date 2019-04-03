@@ -1,0 +1,214 @@
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: #CCC; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+.social-menu {
+    *zoom: 1;
+
+}
+
+.social-menu:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.main{
+	float:left;
+}
+
+/* DEMO 2 */
+.top-bar .top-right .social-dropdown {
+    /* Size and position */
+    position: relative; /* Enable absolute positionning for children and pseudo elements */
+    width: 188px;
+    margin: 0 auto;
+    padding: 16px 15px;
+	font-family: 'univers_57_condensedregular';
+    /* Styles */
+    background: #000;
+	font-size:15px;
+    border-left: 5px solid black;
+    cursor: pointer;
+    outline: none;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.social-dropdown:after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #d1d1d1 transparent;
+}
+
+.social-dropdown .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    right: 0px;
+
+    /* Styles */
+    background: white;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.social-dropdown .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+	font-size:15px;
+    border-left: 5px solid;
+    padding: 12px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.social-dropdown .dropdown li:nth-child(1) a { 
+    border-left-color: #325c94;
+}
+
+.social-dropdown .dropdown li:nth-child(2) a {
+    border-left-color: #00abdc;
+}
+
+.social-dropdown .dropdown li:nth-child(3) a {
+    border-left-color: #464646;
+}
+
+.social-dropdown .dropdown li:nth-child(4) a {
+    border-left-color: #d9031f;
+}
+.social-dropdown .dropdown li:nth-child(5) a {
+    border-left-color: #fa4086;
+}
+
+.social-dropdown .dropdown li i {
+    margin-right: 10px;
+    color: inherit;
+	font-size:17px;
+    vertical-align: middle;
+}
+
+/* Hover state */
+
+.social-dropdown .dropdown li:hover a {
+    color: white;
+}
+.social-dropdown .dropdown li:nth-child(1):hover a { 
+    background:#325c94;
+}
+
+.social-dropdown .dropdown li:nth-child(2):hover a {
+    background: #00abdc;
+}
+
+.social-dropdown .dropdown li:nth-child(3):hover a {
+    background: #464646;
+}
+
+.social-dropdown .dropdown li:nth-child(4):hover a {
+    background: #d9031f;
+}
+.social-dropdown .dropdown li:nth-child(5):hover a {
+    background: #fa4086;
+}
+
+/* Active state */
+
+.social-dropdown.active:after {
+    border-width: 0 6px 6px 6px;
+}
+
+.social-dropdown.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+	z-index:1200;
+}
+
+/* No CSS3 support */
+
+.no-opacity       .social-dropdown .dropdown,
+.no-pointerevents .social-dropdown .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .social-dropdown.active .dropdown,
+.no-pointerevents .social-dropdown.active .dropdown {
+    display: block;
+}
+
+
+
+
+/* Search Bar */
+.search{ display:none; background: #fff; border-bottom: solid 1px #D3D3D3; left: 0; top: 52px; width: 100%; position:absolute; z-index:10; padding: 16px 0;}
+.search-btn {
+float: left;
+background: #313131;
+}
+.search-btn i{ padding:16px; float:left; margin:0px !important; cursor:pointer;}
+.search input[type="text"] {
+border: 0 none;
+font-size: 30px;
+height: 100%;
+  margin:-18px 0 0 0;
+  padding: 16px 0;
+width: 66%;
+position: absolute;
+background: none;
+}
+[class^="icon-"], [class*=" icon-"] {
+
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.search a {
+font-size: 30px;
+position: relative;
+right: -8px;
+top: 0px;
+text-decoration: none;
+color: #222; float: right;
+}
+input:focus{ outline: 0;}

@@ -1,0 +1,173 @@
+/*color switcher*/
+.color-switcher {
+	width: 234px;
+	position:fixed;
+	left: -235px;
+	top: 10%;
+	background: #f5f5f5;
+	z-index: 999;
+	padding:0 0 5px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.color-switcher h5 {
+	font-size: 19px;
+    margin-top: -1px;
+    padding: 15px 14px;
+	color:#fff;
+}
+.color-switcher p {
+	color: #595959;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+}
+
+.picker_close {
+    height: 51px;
+    position: absolute;
+    right: -50px;
+    text-align: center;
+    top:50%;
+	margin-top: -25px;
+    width: 50px;
+	color:#fff !important;
+}
+.picker_close i {
+	font-size:30px;
+	margin-top:9px;
+	display:block;
+}
+.picker_close:focus i{color:#fff;} 
+.position {
+	left: 0;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.position .picker_close{ top:-1px; margin-top:0;}
+.theme-colours{
+	display: table;
+	padding: 10px 28px 15px;
+	text-align: left;
+	border-top:1px solid #e1e1e1;
+	width:100%;
+}
+.theme-colours ul {
+	list-style:none;
+	padding:0;
+}
+.theme-colours ul li {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.theme-colours ul li a {
+	display: block;
+	width: 31px;
+	height: 24px;
+	outline: none;
+}
+.theme-colours ul li:nth-child(5n+5){ margin-right:0;}
+.theme-colours ul li a.default {
+	background: #ff7524;
+}
+.theme-colours ul li a.green {
+	background: #9cba36;
+}
+.theme-colours ul li a.yellow {
+	background: #EDC527;
+}
+.theme-colours ul li a.blue {
+	background: #0179f3;
+}
+.theme-colours ul li a.red {
+	background: #ec3233;
+}
+.theme-colours ul li a.dark-blue {
+	background: #0152ad;
+}
+.theme-colours ul li a.pur {
+	background: #873cbd;
+}
+
+.all-pages{ margin:16px 28px 23px;}
+.all-pages a{ display: block;
+    font-family: arial;
+    font-size: 14px;
+    padding: 8px 12px 7px; color:#000;}
+.all-pages .dropdown ul  a:hover{ background:#f9f9f9;}
+.switcher-dropdown{ background:#fff; border:1px solid #d5d5d5; height:36px;margin-bottom: 10px;}
+.switcher-dropdown a { cursor:text;}
+.switcher-dropdown a span{ cursor:pointer; float:right;margin: -9px -14px 0 0;padding: 18px; border-left:1px solid #d5d5d5; background:url(../images/caret.jpg) no-repeat center 17px;}
+
+.switcher-dropdown ul{ display:none; width:100.9%; background:#fff;border:1px solid #d5d5d5;top:-1px;margin:0 -1px; position:relative; z-index:5;}
+.switcher-dropdown ul li{border-bottom:1px solid #d5d5d5;}
+.switcher-dropdown ul li:last-child{ border-bottom:0;}
+.switcher-dropdown ul li a{ cursor:pointer;}
+
+
+
+.heading i{ display:none;}
+
+
+.versions{border-top:1px solid #d5d5d5; padding:25px 28px;}
+.versions .versions-inner{ width:50%; float:left}
+.versions .versions-inner a{ float:left; width:36px; height:22px; border:1px solid #d5d5d5; margin-right:6px; background:#fff;}
+.versions .versions-inner a.dark{ background:#222; border:1px solid #222;}
+.versions .versions-inner a:hover{ border:1px solid #222;}
+
+
+
+.switcher-right{ position:fixed; right:20px; top:40%; z-index:50;}
+.switcher-right a{ display: block; text-align:center;
+font-size: 28px;
+height: 51px;
+line-height: 49px;
+width: 50px;
+color: #ccc;
+margin-bottom:10px;
+background: #f6c815;
+color: #fff;
+border-radius: 4px;}
+.switcher-right a:hover{background: #;}
+.switcher-right a.disable{ display:none;}
+.switcher-right > p {
+    background:#f6c815;
+	display:none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 27px;
+    margin: -61px 60px 0;
+    padding: 11px 20px 8px;
+    position: fixed;
+    right: 20px;
+    text-align: right;
+    width: auto;
+}
+
+.colorfull-btn{ background:url(../images/cfl.png) no-repeat; width:103px !important;}
+
+.shown{ display:block!important;}
+.hidden{ display:none!important;}
+
+.margin{ margin:22px 0 0;}
+.social-hide{ display:none;}
+
+
+
+.left-nav-top li:nth-child(1n+1) a{ color:#9d9c21}
+.left-nav-top li:nth-child(2n+2) a{ color:#8b2e96}
+.left-nav-top li:nth-child(3n+3) a{ color:#ea2f3c}
+.left-nav-top li:nth-child(4n+4) a{ color:#ee9b24}
+.left-nav-top li:nth-child(5n+5) a{ color:#2b96cc}
+.left-nav-top li:nth-child(6n+6) a{ color:#60a812}
+
+
+

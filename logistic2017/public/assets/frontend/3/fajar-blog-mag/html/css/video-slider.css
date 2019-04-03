@@ -1,0 +1,1440 @@
+/* v1.0.5 */
+/* Core RS CSS file. 95% of time you shouldn't change anything here. */
+.royalSlider {
+	width: 600px;
+	height: 400px;
+	position: relative;
+	direction: ltr;
+}
+.royalSlider > * {
+	float: left;
+}
+
+.rsWebkit3d .rsSlide {
+	-webkit-transform: translateZ(0);
+}
+
+
+.rsWebkit3d .rsSlide,
+.rsWebkit3d .rsContainer,
+.rsWebkit3d .rsThumbs,
+.rsWebkit3d .rsPreloader,
+.rsWebkit3d img,
+.rsWebkit3d .rsOverflow,
+.rsWebkit3d .rsBtnCenterer,
+.rsWebkit3d .rsAbsoluteEl,
+.rsWebkit3d .rsABlock,
+.rsWebkit3d .rsLink {
+	-webkit-backface-visibility: hidden;
+}
+.rsFade.rsWebkit3d .rsSlide,
+.rsFade.rsWebkit3d img,
+.rsFade.rsWebkit3d .rsContainer {
+    -webkit-transform: none;
+}
+.rsOverflow {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.rsVisibleNearbyWrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.rsVisibleNearbyWrap .rsOverflow {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.rsContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.rsArrow,
+.rsThumbsArrow {
+	cursor: pointer;
+}
+
+.rsThumb {
+	float: left;
+	position: relative;
+}
+
+
+.rsArrow,
+.rsNav,
+.rsThumbsArrow {
+	opacity: 1;
+	-webkit-transition:opacity 0.3s linear;
+	-moz-transition:opacity 0.3s linear;
+	-o-transition:opacity 0.3s linear;
+	transition:opacity 0.3s linear;
+}
+.rsHidden {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	-moz-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	-o-transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+	transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+}
+
+
+.rsGCaption {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/* Fullscreen options, very important ^^ */
+.royalSlider.rsFullscreen {
+	position: fixed !important;
+	height: auto !important;
+	width: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	z-index: 2147483647 !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+.royalSlider .rsSlide.rsFakePreloader {
+	opacity: 1 !important;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition:  0s;
+	transition:  0s;
+	display: none;
+}
+
+.rsSlide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	overflow: hidden;
+	
+	height: 100%;
+	width: 100%;
+}
+
+.royalSlider.rsAutoHeight,
+.rsAutoHeight .rsSlide {
+	height: auto;
+}
+
+.rsContent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.rsPreloader {
+	position:absolute;
+	z-index: 0;	
+}
+
+.rsNav {
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.rsNavItem {
+	-webkit-tap-highlight-color:rgba(0,0,0,0.25);
+}
+
+.rsThumbs {
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	z-index: 22;
+}
+.rsTabs {
+	float: left;
+	background: none !important;
+}
+.rsTabs,
+.rsThumbs {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+.rsVideoContainer {
+	/*left: 0;
+	top: 0;
+	position: absolute;*/
+	/*width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;*/
+	width: auto;
+	height: auto;
+	line-height: 0;
+	position: relative;
+}
+.rsVideoFrameHolder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #141414;
+	opacity: 0;
+	-webkit-transition: .3s;
+}
+.rsVideoFrameHolder.rsVideoActive {
+	opacity: 1;
+}
+.rsVideoContainer iframe,
+.rsVideoContainer video,
+.rsVideoContainer embed,
+.rsVideoContainer .rsVideoObj {
+	position: absolute;
+	z-index: 50;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe,
+.rsVideoContainer.rsIOSVideo video,
+.rsVideoContainer.rsIOSVideo embed {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 44px;
+}
+
+.rsABlock {
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 15;
+	
+}
+
+img.rsImg {
+	max-width: none;
+}
+
+.grab-cursor {
+	cursor:url(../images/grab.png) 8 8, move; 
+}
+
+.grabbing-cursor{ 
+	cursor:url(../images/grabbing.png) 8 8, move;
+}
+
+.rsNoDrag {
+	cursor: auto;
+}
+
+.rsLink {
+	left:0;
+	top:0;
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:block;	
+	z-index: 20;
+	background: url(blank.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..... RS-Default ......*/
+
+
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+	background: #151515;
+	color: #FFF;
+}
+
+
+/***************
+*
+*  1. Arrows
+*
+****************/
+
+.rsDefault .rsArrow {
+	height: 100%;
+	width: 44px;
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	z-index: 21;
+}
+.rsDefault.rsVer .rsArrow {
+	width: 100%;
+	height: 44px;
+	
+}
+.rsDefault.rsVer .rsArrowLeft { top: 0; left: 0; }
+.rsDefault.rsVer .rsArrowRight { bottom: 0;  left: 0; }
+
+.rsDefault.rsHor .rsArrowLeft { left: 0; top: 0; }
+.rsDefault.rsHor .rsArrowRight { right: 0; top:0; }
+
+.rsDefault .rsArrowIcn {		
+	width: 32px;
+	height: 32px;
+	top: 50%;
+	left: 50%;
+	margin-top:-16px;	
+	margin-left: -16px;
+
+	position: absolute;	
+	cursor: pointer;	
+	background: url('rs-default.png');
+
+	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
+	*background-color: #000;
+	
+	border-radius: 2px;
+}
+.rsDefault .rsArrowIcn:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background-position: -64px -32px; }
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background-position: -64px -64px; }
+
+.rsDefault.rsVer .rsArrowLeft .rsArrowIcn { background-position: -96px -32px; }
+.rsDefault.rsVer .rsArrowRight .rsArrowIcn { background-position: -96px -64px; }
+
+.rsDefault .rsArrowDisabled .rsArrowIcn { opacity: .2; filter: alpha(opacity=20);  *display: none; }
+
+
+/***************
+*
+*  2. Bullets
+*
+****************/
+
+.rsDefault .rsBullets {
+	position: absolute;
+	z-index: 35;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	margin: 0 auto; 
+
+	background: #000;
+	background: rgba(0,0,0,0.75);
+
+	text-align: center;
+	line-height: 8px;
+	overflow: hidden;
+}
+.rsDefault .rsBullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	*display:inline; 
+	*zoom:1;
+	padding: 6px 5px 6px;
+}
+.rsDefault .rsBullet span {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #777;
+	background: rgba(255,255,255,0.5);
+}
+.rsDefault .rsBullet.rsNavSelected span {
+	background-color: #FFF;
+}
+
+
+
+
+
+/***************
+*
+*  3. Thumbnails
+*
+****************/
+
+.rsDefault .rsThumbsHor {
+	width: 100%;
+	height: 72px;
+}
+.rsDefault .rsThumbsVer {
+	width: 96px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.rsDefault.rsWithThumbsHor .rsThumbsContainer {
+	position: relative;
+	height: 100%;
+}
+.rsDefault.rsWithThumbsVer .rsThumbsContainer {
+	position: relative;
+	width: 100%;
+}
+.rsDefault .rsThumb {
+	float: left;
+	overflow: hidden;
+	width: 96px;
+	height: 72px;
+}
+.rsDefault .rsThumb img {
+	width: 100%;
+	height: 100%;
+}
+.rsDefault .rsThumb.rsNavSelected {
+	background: #02874a;
+}
+.rsDefault .rsThumb.rsNavSelected img {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+.rsDefault .rsTmb {
+	display: block;
+}
+
+/* Thumbnails with text */
+.rsDefault .rsTmb h5 {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	color: #FFF;
+}
+.rsDefault .rsTmb span {
+	color: #DDD;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
+
+/* Thumbnails arrow icons */
+.rsDefault .rsThumbsArrow {
+	height: 100%;
+	width: 20px;
+	position: absolute;
+	display: block;
+	cursor: pointer;	
+	z-index: 21;	
+	background: #000;
+	background: rgba(0,0,0,0.75);
+}
+.rsDefault .rsThumbsArrow:hover {
+	background: rgba(0,0,0,0.9);
+}
+.rsDefault.rsWithThumbsVer .rsThumbsArrow {
+	width: 100%;
+	height: 20px;
+}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft { top: 0; left: 0; }
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight { bottom: 0;  left: 0; }
+
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft { left: 0; top: 0; }
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight { right: 0; top:0; }
+
+.rsDefault .rsThumbsArrowIcn {		
+	width: 16px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	margin-top:-8px;	
+	margin-left: -8px;
+	position: absolute;	
+	cursor: pointer;	
+	background: url(../images/video-arrows.png);
+}
+
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -128px -32px; }
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -128px -48px; }
+
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -144px -32px; }
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -144px -48px; }
+
+.rsDefault .rsThumbsArrowDisabled { display: none !important; }
+
+/* Thumbnails resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 800px) {
+	.rsDefault .rsThumb {
+		width: 59px;
+		height: 44px;
+	}
+	.rsDefault .rsThumbsHor {
+		height: 44px;
+	}
+	.rsDefault .rsThumbsVer {
+		width: 59px;
+	}
+}
+
+
+
+
+/***************
+*
+*  4. Tabs
+*
+****************/
+
+.rsDefault .rsTabs {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align:center;
+	overflow: hidden; padding-top: 12px; position: relative;
+}
+.rsDefault .rsTab {
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	height: auto;
+	width: auto;
+	color: #333;
+	padding: 5px 13px 6px;
+	min-width: 72px;
+	border: 1px solid #D9D9DD;
+	border-right: 1px solid #f5f5f5;
+	text-decoration: none;
+
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); 
+	background-image:    -moz-linear-gradient(top, #fefefe, #f4f4f4);
+	background-image:         linear-gradient(to bottom, #fefefe, #f4f4f4);
+
+	-webkit-box-shadow: inset 1px 0 0 #fff;
+	box-shadow: inset 1px 0 0 #fff;
+
+	*display:inline; 
+	*zoom:1;
+}
+.rsDefault .rsTab:first-child {
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.rsDefault .rsTab:last-child { 
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	border-right:  1px solid #cfcfcf;
+}
+.rsDefault .rsTab:active { 
+	border: 1px solid #D9D9DD;   
+	background-color: #f4f4f4;
+	box-shadow:  0 1px 4px rgba(0, 0, 0, 0.2) inset;
+}
+.rsDefault .rsTab.rsNavSelected { 
+	color: #FFF;
+	border: 1px solid #999;
+	text-shadow: 1px 1px #838383;
+	box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;
+	background: #ACACAC;
+	background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);
+	background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);
+	background-image: linear-gradient(to bottom, #ACACAC, #BBB);
+}
+
+
+
+
+
+/***************
+*
+*  5. Fullscreen button
+*
+****************/
+
+.rsDefault .rsFullscreenBtn {
+	right: 0;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 22;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	
+}
+.rsDefault .rsFullscreenIcn {
+	display: block;
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+
+	background: url('rs-default.png') 0 0;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
+	*background-color: #000;
+	border-radius: 2px;
+
+}
+.rsDefault .rsFullscreenIcn:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+.rsDefault.rsFullscreen .rsFullscreenIcn {
+	background-position: -32px 0;
+}
+
+
+
+
+
+/***************
+*
+*  6. Play/close video button
+*
+****************/
+
+.rsDefault .rsPlayBtn {
+	-webkit-tap-highlight-color:rgba(0,0,0,0.3);
+	width:64px;
+	height:64px;
+	margin-left:-32px;
+	margin-top:-32px;
+	cursor: pointer;
+}
+.rsDefault .rsPlayBtnIcon {
+	width:64px;
+	display:block;
+	height:64px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+
+	background:url(../images/player-icon.png) no-repeat 0 0px;
+}
+.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {
+
+}
+.rsDefault .rsBtnCenterer {
+	position:absolute;
+	left:50%;
+	top:50%;
+}
+.rsDefault .rsCloseVideoBtn {
+	right: 0;
+	display:none;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 500;
+	position: absolute;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	
+}
+.rsDefault .rsCloseVideoBtn.rsiOSBtn {
+	top: -38px;
+	right: -6px;
+}
+
+.rsDefault .rsCloseVideoIcn {
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+	background: url('rs-default.png') -64px 0;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
+	*background-color: #000;
+}
+.rsDefault .rsCloseVideoIcn:hover {
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+
+/***************
+*
+*  7. Preloader
+*
+****************/
+
+.rsDefault .rsPreloader {
+	width:20px;
+	height:20px;
+	background-image:url(../preloaders/preloader-white.gif);
+
+	left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-10px;	
+}
+
+
+
+
+/***************
+*
+*  8. Global caption
+*
+****************/
+.rsDefault .rsGCaption {
+	position: absolute;
+	float: none;
+	bottom: 6px;
+	left: 6px;
+	text-align: left;
+
+	background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.75);
+
+	color: #FFF;
+	padding: 2px 8px;
+	width: auto;
+	font-size: 12px;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..... Reset ......*/
+
+
+
+
+
+
+
+
+
+.col,
+.main-features li {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+.col,
+.main-features li {
+    margin-left:1%;
+    padding:0 1%;
+}
+
+.row .col:first-child,
+.main-features li:first-child {
+    margin-left:0;
+}
+.page .row {
+    margin-bottom: 24px;
+}
+
+
+
+.span_1 {
+    width:15.8333333333%;
+}
+.span_2,
+.main-features li {
+    width:32.6666666667%;
+}
+.span_3 {
+    width:49.5%;
+}
+.span_4 {
+    width:66.3333333333%;
+}
+.span_5 {
+    width:83.1666666667%;
+}
+.span_6 {
+    margin-left:0;
+    width:100%;
+}
+.logo_shift {
+    margin-left: 156px !important;
+}
+    
+
+
+
+    @media screen and (min-width: 0px) and (max-width: 760px) {
+        
+        .col,
+        .main-features li {
+            margin: 30px 5%;
+            width: 90%;
+        }
+        
+        .row .col:first-child,
+        .main-features li:first-child {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .wrapper {
+            width: 100%;
+        }
+
+        
+        .span_1,
+        .span_2,
+        .span_3,
+        .span_4,
+        .span_5,
+        .span_6 {
+            width: 90%;   
+            padding: 0;
+        }
+        .fwImage {
+            width: 100%;
+            margin: 0 !important;
+            padding: 0;
+        }
+        #main-footer {
+            text-align: center;
+        }
+        .logo_shift {
+           margin-left: 5% !important;
+        }
+    
+        
+    }
+
+
+
+   
+
+
+.templates-count {
+  top: 6px;
+  right: -2px;
+  position: absolute;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+#templates-list {
+  list-style: none;
+}
+#templates-list li {
+  position: relative;
+  height: auto;
+  background: #f7f7f7;
+  float: left;
+  margin: 12px 1%;
+  width: 30%;
+}
+#templates-list a {
+  line-height: 0;
+  display: block;
+}
+
+#templates-list img {
+  width: 100%;
+  height: auto;
+}
+#templates-list h3 {
+  color: #111;
+  background: #E7E7E7;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 8px;
+  margin: 0;
+}
+#templates-list a:hover {
+  color: #C00;
+  text-decoration: none;
+}
+#templates-list a:hover h3 {
+  color: #C00;
+  text-decoration: none;
+}
+
+#colorbox-items {
+  width: 100%;
+  height: 300px;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 290px;
+  font-size: 22px;
+}
+.openBoxButton {
+color:#c00;
+text-decoration: underline;
+}
+
+
+
+
+
+/**
+ * Buttons
+ */
+a.action-button {
+  color: #c00;
+  background: #dadada;
+  padding: 8px 12px 9px;
+  border-radius: 2px;
+
+}
+a.action-button:hover {
+  text-decoration: none;
+  background: #C00;
+  color: #FFF;
+}
+
+.example-info h2 {
+  margin-top: 0;
+}
+
+.fullWidth {
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+#page-navigation {
+  margin-top: 8px;
+  height: auto;
+}
+#page-navigation .page-nav-item a {
+  padding: 6px 8px;
+  background: #f7f7f7;
+  text-decoration: none;
+  line-height: 31px;
+}
+#page-navigation .page-nav-item a:hover {
+  background: #c00;
+  color:#FFF;
+  text-decoration: none;
+}
+#page-navigation .right {
+  float: right;
+}
+#page-navigation .left {
+  float: left;
+}
+
+#docs-menu {
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  padding: 0;
+  background: #f7f7f7;
+}
+#docs-menu li {
+  list-style: none;
+}
+#docs-menu .dmenu-inside > ul {
+  margin: 0;
+}
+#docs-menu h4 {
+  margin: 0 0 12px 0;
+}
+#docs-menu .dmenu-inside {
+  padding: 20px 20px 12px;
+}
+#docs-menu .support-forum-link {
+  font-weight: bold;
+padding: 0 20px 20px;
+}
+#docs h2 {
+
+}
+#docs h2:target,
+#docs h3:target,
+#docs h4:target {
+  padding: 15px;
+  border-top: 50px solid transparent;
+  margin-top: -30px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff6bf;
+}
+
+
+
+.home-actions {
+  text-align: center;
+  margin-top: 32px;
+}
+
+
+/**
+ * Head
+ */
+#logo {
+  display: block;
+  font-size: 24px;
+  line-height: 23px;
+  float: left;
+  padding: 12px 13px 14px;
+  background: #be2a2a;
+  width: auto;
+  color: #FFF;
+  width: 130px;
+  text-align: center;
+}
+#logo:hover {
+  text-decoration: none;
+  background-color: #C00;
+  
+
+}
+
+.call-to-action {
+    padding: 14px 23px;
+    background: #727272;
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  .call-to-action:hover {
+    text-decoration: underline;
+    color: #FFF;
+    background: #999;
+  }
+  .call-to-action-primary {
+    background: #BE2A2A;
+  }
+  .call-to-action-primary:hover {
+    background: #CE3A3A;
+  }
+
+
+#main-header {
+  color: #000;
+  background: #f7f7f7;
+  margin-bottom: 16px;
+}
+.home-page #main-header {
+  margin-top: 16px;
+  background: none;
+}
+.weird-rabbit {
+  top: 10px;
+  left: 10px;
+}
+.weird-rabbit:hover {
+  -webkit-animation-name: whiggle;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.home-page .weird-rabbit {
+  top: 28px;
+  left: 27px;
+}
+#main-header a {
+
+}
+#main-header nav {
+  margin-top: 13px;
+  float: left;
+  margin-left: 16px;
+}
+
+#buy-slider {
+  float: right;
+  margin-top: 0px;
+  font-weight: bold;
+  padding: 14px 10px;
+}
+
+#main-header nav a {
+  padding: 14px 10px;
+  position: relative;
+}
+#main-header nav a.curr-menu-item {
+  color: #AAA;
+}
+.sales-count {
+  margin-top: 12px;
+}
+.cc-icon {
+  margin: 4px 0 0 0;
+  background: url('sprite.png') 0 0;
+  width: 38px;
+  height: 38px;
+  float: right;
+}
+
+ .full-width-wrap {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 16px 0;
+ }
+
+.new-template {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 10px;
+  padding: 1px 5px 1px;
+  line-height: 13px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background: #C00;
+}
+/* table */
+table.tc-variables-table {
+  border-spacing: 0;
+  border: none;
+  width: 100%;
+  position: relative;
+  margin: 1em 0 2em;
+}
+table.tc-variables-table thead {
+  border-bottom: 2px solid #D6D6D6;
+  color: #747474;
+}
+table.tc-variables-table thead th {
+  padding-bottom: 6px;
+}
+
+table.tc-variables-table td, 
+table.tc-variables-table th {
+  border: none;
+  text-align: left;
+  vertical-align: top;
+  padding: 0;
+  border-image: initial;
+}
+table.tc-variables-table th {
+  font-weight: bold;
+  padding-left: 11px;
+  padding-right: 22px;
+  padding-bottom: 11px;
+
+}
+
+table.tc-variables-table td {
+  padding: 8px 22px 8px 11px;
+  font-size: 13px;
+}
+table.tc-variables-table td:first-child {
+  color: #5551B8;
+}
+table.tc-variables-table tbody tr:nth-child(odd) td {
+  background-color: #f7f7f7;
+}
+table.tc-variables-table tbody tr:hover td {
+  background-color: #fff6bf !important;
+}
+
+
+
+/**
+ * Templated
+ */
+#templates-list,
+#templates-list li {
+  list-style: none;
+}
+
+
+/**
+ * Features
+ */
+.top-features-title {
+  margin-top: 32px;
+margin-bottom: 4px;
+
+}
+.main-features ul {
+  margin: 0;
+}
+.main-features li {
+  list-style: none;
+  margin-bottom: 16px;
+  float: left;
+}
+
+.main-features li p {
+  color: #575757;
+}
+.main-features li a {
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+
+/**
+ * Footer
+ */
+#main-footer {
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #cdcdcd;
+  padding-bottom: 32px;
+}
+#main-footer .copy {
+  float: right;
+}
+#main-footer nav {
+  float: left;
+}
+#main-footer nav a {
+  padding: 0 6px;
+}
+
+
+.wp-how-to-video {
+  display: block;
+padding: 10px;
+padding-left: 62px;
+background: url('../../img/wordpress-logo-32-blue.png') no-repeat 15px 15px #f7f7f7;
+}
+
+/**
+ * FAQ
+ */
+
+ul.faq-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+.faq-list > li {
+  margin-bottom: 24px;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.faq-list h3 {
+
+}
+
+  @media screen and (min-width: 0px) and (max-width: 977px) {
+    #templates-list {
+      margin-top: 0;
+    }
+    #templates-list li {
+      margin: 12px 1%;
+      width: 46%;
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    #templates-list li {
+      margin: 12px 0;
+      width: 100%%;
+    }
+     #colorbox-items {
+        font-size: 14px;
+        height: 200px;
+        line-height: 200px;
+      }
+  }
+  @media screen and (min-width: 761px) and (max-width: 850px) {
+    #buy-slider span {
+      display: none;
+    }
+  }
+    @media screen and (min-width: 0px) and (max-width: 760px) {
+
+    #logo {
+      margin: 0 auto;
+      float: none;
+      margin-top: 1px;
+    }
+    nav a {
+      line-height: 16px;
+      display: inline-block;
+    }
+
+    .home-page #main-header {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    #main-header nav {
+      width: 100%;
+      margin-top: 22px;
+      display: block;
+      text-align: center;
+      margin-left: 0;
+      float: left;
+    }
+    #buy-slider {
+      display: block;
+      width: 100%;
+      float: left;
+      margin-top: 6px;
+      font-weight: bold;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+
+    }
+    #main-header .span_6 {
+      margin-bottom: 12px;
+    }
+    #main-footer {
+      padding-top: 16px;
+      margin-top: 16px;
+      border-top: 1px solid #cdcdcd;
+      padding-bottom: 32px;
+    }
+    #main-footer .copy {
+      float: right;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    #main-footer nav {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+    #main-footer nav a {
+      padding: 8px 6px;
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #video-gallery {
+  width: 100%;
+}
+
+.videoGallery .rsTmb {
+  padding: 20px;
+}
+.videoGallery .rsThumbs .rsThumb {
+  width: 220px;
+  height: 80px;
+  border-bottom: 1px solid #2E2E2E;
+}
+.videoGallery .rsThumbs {
+  width: 220px;
+  padding: 0;
+}
+.videoGallery .rsThumb:hover {
+  background: #000;
+}
+.videoGallery .rsThumb.rsNavSelected {
+  border-bottom:-color #02874A;
+}
+
+.sampleBlock {
+  left: 3%; 
+  top: 1%; 
+  width: 100%;
+  max-width: 400px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .videoGallery .rsTmb {
+    padding: 6px 8px;
+  }
+  .videoGallery .rsTmb h5 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .videoGallery .rsThumbs.rsThumbsVer {
+    width: 100px;
+    padding: 0;
+  }
+  .videoGallery .rsThumbs .rsThumb {
+    width: 100px;
+    height: 47px;
+  }
+  .videoGallery .rsTmb span {
+    display: none;
+  }
+  .videoGallery .rsOverflow,
+  .royalSlider.videoGallery {
+    height: 300px !important;
+  }
+  .sampleBlock {
+    font-size: 14px;
+  }
+}
+.video-banner{ margin:0px;}

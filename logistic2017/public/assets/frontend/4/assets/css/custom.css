@@ -1,0 +1,109 @@
+.pricing-table td,.pricing-table th {
+	padding: 20px !important;
+}
+
+.footer-subscribe .form-control {
+	display: inline-block;
+    float: left;
+    width: 75%;
+    background: #000;
+    border-color: #333;
+}
+.footer-subscribe label {
+    margin-bottom: 10px;
+}
+.footer-subscribe .btn {
+    padding: 10px 15px;
+}
+
+/**/
+.main-bg .tags-widget .tags a {
+    background-color: rgba(0,0,0,.2);
+}
+div.articles  .post-content {
+	height: 246px;
+	max-height: 246px;
+}
+
+div.articles  .post-content p {
+	min-height: 106px;
+	max-height: 106px;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+div.articles .post-info-container {
+	padding-top: 32px;
+}
+
+div.top-cart .fa {
+    color: #FFF;
+}
+
+div.top-cart .fa.fa-facebook {
+    background-color: #3B599C;
+}
+
+div.top-cart .fa.fa-twitter {
+    background-color: #5EA9DD;
+}
+
+div.top-cart .fa.fa-google-plus {
+    background-color: #DC4A38;
+}
+.discount .old-price {
+	text-decoration: line-through;
+	font-size: 12px;
+	color: #000;	
+}
+ .discount .new-price {
+	color: #EE3029;
+ 	font-weight: bold;
+ 	font-size: 14px;
+}
+.pricing-tbl ul li {
+	color: #000;
+}
+ul.package-remark {
+	font-size: 12px;
+	clear: both;
+    padding-top: 20px;
+}
+ul.package-remark li:before {
+	content: "* ";
+}
+a.edit-btn {
+	position: absolute;
+    margin-top: -15px !important;	
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+a.edit-btn i.fa {
+	margin: 0px;
+}
+.edit-hover {
+	background-color: rgba(200,200,200,0.5);
+}
+
+.flag-btn {
+	float: right;
+	margin: 29px 5px;
+}
+.flag-btn.social-list li {
+	margin: 0px;
+}
+.flag-btn.social-list li a {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+	font-size: 9px;
+}
+.flag-btn.social-list li a:before,
+.flag-btn.social-list li a:after {
+	font-size: 13px;
+}
+.flag-btn li.active {
+	background-color: #FFD33C;
+}
+.flag-btn li.active a {
+	color: #FFF;
+}

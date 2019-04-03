@@ -1,0 +1,150 @@
+
+
+
+
+
+/* -------------------------------------------------------
+
+
+					ONLY DEFAULT COLOR SKIN
+
+
+------------------------------------------------------- */
+
+a { color: #3a539b;}
+a:hover,
+a:focus { color: #3a539b;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#3a539b}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {color:#3a539b;}
+p  span, p a{ color:#3a539b;}
+.color-default{ color:#3a539b !important}
+.bg-default{background:#3a539b;}
+.dropdown-menu{ border-color:#3a539b;}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus { background-color: #3a539b; border-color:#3a539b;}
+.mega-menu-item .mega-menu{ border-color:#3a539b;}
+.cd-primary-nav { background: #3a539b;}
+.btn-default, .btn-white:hover { background-color: #3a539b;}
+.portfolio-bottom p a:hover{ border-color:#3a539b; color:#3a539b;}
+.feature-list i { background:#3a539b;}
+.counter .quantity-counter{ color:#3a539b;}
+.happy-clients h2{ color:#3a539b;}
+.about-client span{ color:#3a539b;}
+.text-slider .owl-controls .owl-pagination .owl-page.active span,
+.text-slider .owl-controls .owl-pagination .owl-page span:hover{border-color:#3a539b; background:#3a539b}
+.resp-tab-item  a:hover, .resp-tab-active a{ background:#3a539b}
+.pointer-icon{ background: #3a539b;}
+.pointer-icon:after { border-top-color: #3a539b;}
+.address-list li a:hover {color: #3a539b !important;}
+.tags-cloud li a:hover{ background:#3a539b; border-color:#3a539b;}
+.animated-border-nav li a.active{ color: #3a539b;}
+.animated-border-nav li a.active:before{background: #3a539b;}
+.tri-sec:hover h3, .tri-sec:hover i, .tri-sec:hover a{ color:#3a539b;}
+.tri-sec:hover a.link{ color:#3a539b;}
+.smallHeader .navbar-default.animated-border-nav li a:hover, .smallHeader .navbar-default.animated-border-nav li a.active { color:#3a539b ;}
+.creative-sec-thumb figcaption { color:#3a539b;}
+.portfolio-item a:hover{ color:#3a539b;}
+.clients-feedback{ background:#3a539b;}
+.footer-light .tweets p a{ color:#3a539b;}
+.footer-light.tweets i{ color:#3a539b;}
+.footer-light .footer-about a:hover{ color:#3a539b}
+.footer-light .footer-post h4 a:hover{color: #3a539b;}
+.navbar-default.nav-boxed .navbar-nav > li:hover > a, .navbar-default.nav-boxed .navbar-nav > li > a.active{ background:#3a539b;}
+.round-icon i{ color:#3a539b;}
+.round-icon:hover, .tri-sec:hover .round-icon{ border-color:#3a539b;box-shadow: 0 0 0 6px #3a539b inset;}
+.round-icon:hover i, .tri-sec:hover .round-icon i{ background:#3a539b;}
+.btn-dark:hover { background-color: #3a539b;}
+.blog-post-classic a:hover span{ background:#3a539b;}
+.footer-nav-widget li a:hover{ color:#3a539b;}
+.navbar-default.nav-border-bottom .navbar-nav.nav > li:hover > a, .navbar-default.nav-border-bottom .navbar-nav.nav > li > a.active{ border-color:#3a539b;}
+@media (max-width: 992px) {
+.navbar-default.nav-border-bottom .navbar-nav.nav > li > a:hover, .navbar-default.nav-border-bottom .navbar-nav.nav > li.open > a {background: #3a539b !important;border-color: #3a539b !important;}
+}
+.list-bullets li{  background: url("../images/bullet-dark-blue.png") no-repeat 0 7px;}
+.number-icon{  background: url("../images/number-marker-dark-blue.png") no-repeat scroll 0 0;}
+.our-process-tabs .resp-tab-item a:hover, .our-process-tabs .resp-tab-active a, .resp-tab-active{ border-color:#3a539b !important; color:#3a539b !important;}
+.our-process-tabs .resp-tabs-container .process.icon1{ background:url(../images/icon1-dark-blue.png) no-repeat 0 0;}
+.our-process-tabs .resp-tabs-container .process.icon2{ background:url(../images/icon2-dark-blue.png) no-repeat 0 0;}
+.our-process-tabs .resp-tabs-container .process.icon3{ background:url(../images/icon3-dark-blue.png) no-repeat 0 0;}
+.our-process-tabs .resp-tabs-container .process.icon4{ background:url(../images/icon4-dark-blue.png) no-repeat 0 0;}
+.progress { background-color: #3a539b;}
+.round-icon-fill:hover, .tri-sec:hover .round-icon-fill{ border-color:#3a539b;}
+.round-icon-fill:hover i, .tri-sec:hover .round-icon-fill i{ background:#3a539b;}
+.studio-section{ background:#3a539b;}
+.people-excited .owl-controls .owl-pagination .owl-page.active span, .people-excited .owl-controls .owl-pagination .owl-page span:hover{ background:#3a539b !important; border-color:#3a539b !important;}
+.tri-sec:hover .pointer:before {	border-top-color: #3a539b;}
+.tri-sec:hover .pointer{ border-color:#3a539b;}
+.comment-reply-link:hover, .comment-reply-link:focus { background:#3a539b}
+.grid .blog-post a.read-more:hover{ border-color:#3a539b; color:#3a539b;}
+.simple-tabs .resp-tabs-list li.resp-tab-active a, .simple-tabs .resp-tabs-list li a:hover{ background:#3a539b;}
+.breadcrumbs li a:hover{ color:#3a539b;}
+.contact-info-widget-boxed li a:hover{ color:#3a539b}
+.contact-info-widget p a:hover{color: #3a539b;}
+.error-goto-btn:hover{ color:#3a539b}
+.toggle.active .toggle-heading{ color:#3a539b;}
+#history-slider-pager li.rslides_here a{ color:#3a539b;}
+.bordered-tabs .resp-tabs-list li a:hover, .bordered-tabs li.resp-tab-active a { border-color:#3a539b !important;background:#3a539b;}
+.small-text a:hover{ border-color:#3a539b; color:#3a539b;}
+.project-detail-pagination li a:hover{ color:#3a539b;}
+.result-content-inner  .name a:hover{ border-color: #3a539b;color: #3a539b;}
+.portfolio-filter-nav .filter:hover, .portfolio-filter-nav .filter.active{ background:#3a539b;}
+.tooltip-inner { background-color: #3a539b;}
+.tooltip.top .tooltip-arrow { border-top-color: #3a539b;}
+.tooltip.top-left .tooltip-arrow { border-top-color: #3a539b;}
+.tooltip.top-right .tooltip-arrow { border-top-color: #3a539b;}
+.tooltip.right .tooltip-arrow { border-right-color: #3a539b;}
+.tooltip.left .tooltip-arrow { border-left-color: #3a539b;}
+.tooltip.bottom .tooltip-arrow { border-bottom-color: #3a539b;}
+.tooltip.bottom-left .tooltip-arrow { border-bottom-color: #3a539b;}
+.tooltip.bottom-right .tooltip-arrow { border-bottom-color: #3a539b;}
+.product-thumb label{ background: #3a539b;}
+.ui-widget-header { background: #3a539b;}
+.price{ color:#3a539b;}
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover{ color:#3a539b;}
+.ratings i{ color:#3a539b;font-size: 16px;}
+.resp-vtabs li.resp-tab-active {color:#3a539b;}
+.normal-tabs .resp-tabs-list li.resp-tab-active a, .normal-tabs .resp-tabs-list li a:hover{ border-color:#3a539b;}
+.resp-vtabs.normal-tabs-vertical .resp-tabs-list  li.resp-tab-active, .resp-vtabs.normal-tabs-vertical .resp-tabs-list  li:hover{ border-color:#3a539b !important;}
+.toggle.toggle-bg.active .toggle-heading{ background-color:#3a539b;}
+.normal-tabs-bordered-btns .resp-tabs-list .resp-tab-item.resp-tab-active a,
+.normal-tabs-bordered-btns .resp-tabs-list .resp-tab-item a:hover{ border-color:#3a539b;}
+.jplist-btn{ border-color: #3a539b;}
+.paging .current, .paging span:hover{ background:#3a539b}
+#jlocator .store:hover{background-color:#3a539b;}
+.reading-box{ border-color:#3a539b;}
+.carousel-indicators.tab-banner-nav li.active:after, .carousel-indicators.tab-banner-nav li:hover:after{ border-bottom-color:#3a539b;}
+.carousel-indicators.tab-banner-nav li.active, .carousel-indicators.tab-banner-nav li:hover{ background:#3a539b}
+.footer.footer-boxed-light .footer-about a:hover,
+.footer.footer-boxed-light .footer-post h4 a:hover,
+.footer.footer-wide-light .tweets p a,
+.footer.footer-wide-light .footer-about a:hover,
+.footer.footer-wide-light .footer-post h4 a:hover{ color:#3a539b;}
+.btn.btn-default  { background:#3a539b;}
+.light-blue-bg .blue-heading{ color:#3a539b;}
+.faded-tri-sec li:first-child i{  background:#3a539b;}
+.faded-tri-sec li:nth-child(2) i{  background:#4d64a5;}
+.faded-tri-sec li:nth-child(3) i{  background:#6175af;}
+.highlighted-tri-sec{ background:#3a539b;}
+.highlighted-tri-sec:nth-child(2){ background:#4d64a5;}
+.highlighted-tri-sec:nth-child(3){ background:#576daa;}
+
+
+/******** should be dark for hover effect ********/
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default { background-color: #2b4284;}
+
+
+
+
+
+.counter-iconic .col-md-3:nth-child(1){ background:#3a539b;} /* default color */
+.counter-iconic .col-md-3:nth-child(2){ background:#4d64a5;} /* default color light 1 */
+.counter-iconic .col-md-3:nth-child(3){ background:#576daa;} /* default color light 2 */
+.counter-iconic .col-md-3:nth-child(4){ background:#6175af;} /* default color  light 3 */
+
+
+

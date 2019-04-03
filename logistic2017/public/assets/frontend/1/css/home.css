@@ -1,0 +1,104 @@
+#chatForm .form-group {
+    margin: 0px;
+}
+.form-group button.btn .hidden-xs {
+    display: inline !important;
+}
+.pj-display {
+    margin-top: 15px;
+}
+.pj-name h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.player-block {
+    padding: 0;
+    margin-bottom: 15px;
+}
+.player-block iframe {
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden;
+}
+@media (max-width: 1200px) {
+    .player-block iframe {
+        height: 360px;
+    }
+}
+.link-schedule,
+.link-schedule i {
+    color: #FFF !important;
+}
+.c-white > a {
+    color: #FFF;
+}
+.latest-news.carousel .right.carousel-control {
+    right: 0px;
+    padding-right: 40px
+}
+.latest-news.carousel .left.carousel-control {
+    left: -17px;
+}
+@media (min-width: 540px) {
+    .latest-news.carousel .right.carousel-control {
+        right: 0px;
+        padding-right: 0px;
+    }
+    .latest-news.carousel .left.carousel-control {
+        left: -36px;
+    }
+}
+@media (min-width: 1200px) {
+    .latest-news.carousel .right.carousel-control {
+        right: -8px;
+        padding-right: 0px;
+    }
+    .latest-news.carousel .left.carousel-control {
+        left: -44px;
+    }
+}
+
+.latest-news.carousel .left.carousel-control .fa {
+    background-color: #FFF;
+    padding: 0px 14px 0px 10px;
+    border-radius: 50%;
+}
+.latest-news.carousel .right.carousel-control .fa {
+    background-color: #FFF;
+    padding: 0px 10px 0px 14px;
+    border-radius: 50%;
+}
+.poppular-news img {
+    width: 100%;
+}
+.caption-bottom .subtitle {
+    overflow: hidden;
+}
+.caption-bottom {
+    background: rgba(255,86,151,0.8) !important;
+}
+#topic-list tbody td:first-child {
+    width: auto;
+}
+#topic-list tbody td:first-child p.text-muted {
+    font-size: 12px;
+}
+#topic-list tbody td:last-child {
+    width: 135px;
+    font-size: 12px;
+}
+#topic-list > thead > tr {
+    background: #FF5697;
+    color: #FFF;
+}
+#topic-list tbody td:first-child > a {
+    font-size: 16px;
+}
+#topic-list tbody td:first-child > p {
+    margin-bottom: 0px;
+}
+#topic-list tbody td:first-child > p > .fa {
+    margin-left: 3px;
+}

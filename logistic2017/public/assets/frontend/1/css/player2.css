@@ -1,0 +1,39 @@
+body {
+	color: #FFF;
+    font-size: 16px;
+}
+
+.header {
+    display: block;
+    height: 50px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.header .logo {
+    float: left;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    height: 50px;
+    line-height: 50px;
+}
+.header .logo img {
+    vertical-align: middle;
+}
+
+.radio-info .title,
+.radio-info .artist {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.listening h6 {
+    border-bottom: 1px solid #8a6d3b;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.listening h2 {
+    margin-bottom: 0px;
+	font-weight: bold;
+} 

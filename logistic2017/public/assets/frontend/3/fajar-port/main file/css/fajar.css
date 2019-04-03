@@ -1,0 +1,375 @@
+
+/* google font */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300);
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#000;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	text-transform:uppercase;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	font-size:54px;
+}
+h2{
+	text-transform:uppercase;
+	font-weight: 800;
+	font-size:42px;
+	font-family: 'Raleway', sans-serif;
+}
+h3{
+	text-transform:uppercase;
+	font-weight: 300;
+	font-size:32px;
+	font-family: 'Raleway', sans-serif;
+}
+h4{
+	text-transform:uppercase;
+	font-weight: 300;
+	font-size:28px;
+	font-family: 'Raleway', sans-serif;
+}
+h5{
+	font-weight:700;
+	font-size:24px;
+	font-family: 'Raleway', sans-serif;
+}
+h6{ 
+	text-transform:uppercase;
+	font-weight: 300;
+	font-size:20px;
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	font-size:18px;
+	line-height: 27px;
+}
+
+a{
+	text-decoration:none;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+li{
+	list-style:none;
+}
+a .img{
+	border:none;
+}
+a:hover {transition: background-color 0.5s ease; }
+img:hover {transition: background-color 0.5s ease; }
+.clear{
+	clear:both;
+}
+.height5{	height:5px; }
+.height10{	height:10px; }
+.height15{	height:15px; }
+.height20{ 	height:20px; }
+.height25{	height:25px; }
+.height30{	height:30px; }
+.height35{	height:35px; }
+#wrap .container{ width:1280px; margin:0 auto;}
+
+/*..... HEADER ......*/
+
+.header{ background:#fff; padding:0 2.2%; border-bottom: solid 1px #dfdfdf; min-height:86px;}
+.header .logo{ float:left; margin:19px 0 0 0;}
+.header .navi{ float:right; margin:32px 90px 0 0;}
+.header .navi li{ float:left;}
+.header .navi li a{ color:#111111; text-transform:uppercase; font-weight:400; font-family: 'Raleway', sans-serif; margin:0 0 0 90px; }
+.header .navi li.select a{font-weight:800; font-family: 'Raleway', sans-serif;}
+header.sticky { font-size: 24px;  line-height: 48px; height: 48px;  background: #f00; text-align: left; padding-left: 20px; }
+
+
+
+/*..... Creative Studios ......*/
+.creative-studio{ text-align:center; margin:120px 0 120px 0;}
+.creative-studio .icons{}
+.creative-studio .icons span{ font-size: 65px; margin: 0 22px;}
+.creative-studio p{ font-size: 28px; font-family: 'Raleway', sans-serif; font-weight: 400; color: #404040; width: 73%; line-height: 36px; display: inline-block; margin: 32px 0 0 0;}
+
+
+
+/*..... Work ......*/
+.portfolio .work{ width:50%; float:left; }
+.portfolio .work img{ width:100%;  }
+.work .effect-sadie .image{height:100%; }
+
+
+/*..... Services ......*/
+.services{ background:#f1f1f1; padding:120px 0;}
+.services .main-title{ text-align:center;}
+.services .main-title h2{}
+.services .main-title span{ text-transform:uppercase; color:#505050; letter-spacing:5px; font-family: 'Raleway', sans-serif;}
+.services .serv-sec{ float:left; width:392px; background:#FFF; text-align:center; padding:65px 0; border:solid 5px #f1f1f1; box-shadow: 0 0 0 3px #fff; margin:65px 37px 0 0;}
+.services .serv-sec.last{margin:65px 0 0 0;}
+.services .serv-sec span{ font-size: 92px; border-bottom: solid 4px #000; padding: 0 0 40px 0; width: 86px; display: inline-block;}
+.services .serv-sec .detail { margin:65px 0 0 0;}
+.services .serv-sec .detail p{ width:80%; display:inline-block;}
+.services .serv-sec:hover{ background:#000; box-shadow: 0 0 0 3px #000; border:solid 5px #fff;}
+.services .serv-sec:hover p{ color:#fff; }
+.services .serv-sec:hover h5{ color:#fff; }
+.services .serv-sec:hover span{ color:#fff; border-bottom: solid 4px #fff; }
+
+
+
+/*..... Footer ......*/
+.footer{ background:#fff; padding:80px 0 0 0;}
+.footer .fot-sec{ float:left; width:392px; text-align:center; margin:0 51px 0px 0;}
+.footer .get-touch span.fot-logo{ color:#000; font-size:46px; font-family: 'Raleway', sans-serif; border:solid 5px #000; font-weight:600; padding: 20px 34px; border-radius: 100%;
+display:inline-block;}
+.footer .get-touch h5{ text-transform:uppercase;}
+.footer .get-touch .detail{ margin:25px 0 0 0;}
+.footer .get-touch .social{ margin:26px 0 0 0; display:inline-flex;}
+.footer .get-touch .social a{font-size: 24px;  border-radius: 100%; border: solid 1px #393939; padding: 12px 16px; text-align: center; color: #000; margin:0 2px;}
+.footer .get-touch .social span{ width:30px; height:30px;}
+.footer .get-touch .social a:hover{ background:#000; color:#fff;}
+.footer .tweet{ text-align:center;}
+.footer .tweet .icon-twitter-1{ font-size:115px; color:#00b5f3;}
+#tweet-slide { position: relative; margin:14px 0 0 0;}
+#tweet-slide > div { position: absolute; }
+#tweet-slide p{ font-size:20px; color:#888888; font-family: 'Raleway', sans-serif; line-height:35px;}
+#tweet-slide a{ font-size:20px; color:#000; text-decoration:underline; font-family: 'Raleway', sans-serif; font-weight:400; position: relative;}
+#tweet-slide a:hover{ color:#666;}
+.footer .lets-talk { margin:0px;}
+.footer .lets-talk .icon-email-1{ font-size:98px; color:#000;}
+.footer .lets-talk .detail{ margin:25px 0 0 0;}
+.footer .lets-talk h5{ text-transform:uppercase;}
+.footer .lets-talk a{ position: relative; text-transform:uppercase; text-decoration:underline; font-weight: 800; font-family: 'Raleway', sans-serif; font-size: 24px; color:#000; margin:6px 0 0 0;display:inline-block;}
+a::before { position: absolute; top: 0; left: 0; overflow: hidden; max-width: 0; text-decoration:underline; color: #888; content: attr(data-hover);
+-webkit-transition: max-width 0.9s;	-moz-transition: max-width 0.9s; transition: max-width 0.9s;}
+a:hover::before,
+a:focus::before { max-width: 100%; }
+.copyrights{ text-align:center; border-top:solid 1px #d3d3d3; margin: 60px 0 0 0; padding: 25px 0;}
+.copyrights p{font-family: 'Raleway', sans-serif; font-weight:300; font-size: 14px; letter-spacing: 3px;}
+
+
+
+/*..... Footer 2 ......*/
+.footer2{ text-align:center; background:#f4f4f4; padding:88px 0;}
+.footer2 ul.social{ text-align:center; }
+.footer2 ul.social li{ display:inline-block;  }
+.footer2 ul.social li a{ font-family: 'Raleway', sans-serif; font-size:14px; color:#000; text-transform:uppercase; font-weight: 500; margin: 0 35px; letter-spacing: 5px; }
+.footer2 ul.social li a:hover{ padding: 0 0 3px 0; }
+.footer2 ul.social li a.fb:hover{border-bottom: solid 2px #204385;}
+.footer2 ul.social li a.tw:hover{border-bottom: solid 2px #2aa9e0;}
+.footer2 ul.social li a.gp:hover{border-bottom: solid 2px #231f20;}
+.footer2 ul.social li a.pt:hover{border-bottom: solid 2px #CA2128;}
+.footer2 ul.social li a.bh:hover{border-bottom: solid 2px #2e99d1;}
+p.copyright{font-family: 'Raleway', sans-serif; font-weight:300; font-size: 14px; letter-spacing: 3px; margin:15px 0 0 0; color:#8d8d8d;}
+
+
+
+/*..... Home page 2 ......*/
+.main-banner {  overflow:hidden;}
+.main-banner .my-intro{ float:left; position: absolute; top: 38%;}
+.main-banner .my-intro p{font-size: 24px; text-transform: uppercase; font-weight: 600;}
+.main-banner .my-intro a{ border: solid 4px #000; display: inline-block; text-transform: uppercase; color: #000; padding: 20px 70px; font-family: 'Raleway', sans-serif; font-weight: 800;
+margin: 34px 0 0 0;}
+.main-banner .my-intro a:hover{ background:#000; color:#fff;}
+
+
+
+/*..... About Us ......*/
+.sub-banner{ position:relative;}
+.sub-banner img{ width:100%;}
+.sub-banner .text { position: absolute; bottom: 4%; left:2%;}
+.sub-banner .text span{ font-size:26px; font-family: 'Raleway', sans-serif; font-weight:400; margin: -3px 0 0 0; display: inline-block;}
+.about .we-do{ padding:120px 0; text-align:center; margin:-4px 0 0 0;}
+.about .we-do h2{ color:#fff; }
+.about .we-do .divider{ height:1px; width:162px; background:#fff; text-align:center; display: inline-block;}
+.about .we-do .detail{ float:left; text-align:left; margin:72px 0 0 0;}
+.about .we-do .detail p{ font-size:20px; color:#fff; width:48%; float:left;  font-family: 'Raleway', sans-serif; font-weight:300; line-height:31px;}
+.about .we-do .detail p.right{ float:right;}
+.about .we-do .detail strong{ text-decoration:underline; font-weight: 700; font-size: 22px;}
+.about .strategy{ float:left; width:50%; text-align:center;}
+.about .strategy h2{ background:#222; color:#fff; padding:100px 0;}
+.about .strategy img{ width:100%;}
+.about .our-plans{ float:right; width:50%;}
+.about .our-plans .plan-sec{ float:left; width:49.9%; text-align:center; border-right:solid 1px #d3d3d3; border-bottom:solid 1px #d3d3d3; padding:0 0 8.5% 0;}
+.about .our-plans .plan-sec span{ font-size:175px; font-weight:700; }
+.about .our-plans .plan-sec h5{ color:#222222; text-transform:uppercase; margin:-18px 0 0 0;}
+.about .our-plans .plan-sec p{  margin:5px 0 0 0; width:80%; display:inline-block;}
+.about .our-plans .plan-sec.plan-sec2{ border-right:none;}
+.about .team-strategy{ background: url(../images/team-plan.jpg) no-repeat; width: 100%; height: 550px; background-size: 105%; float: left;}
+.about .our-clients{ padding:100px 0; text-align:center;}
+.about .our-clients .clients-logo{ margin:88px 0 0 0;}
+.about .our-clients .clients-logo ul{ text-align:center; border-bottom: solid 1px #d3d3d3;}
+.about .our-clients .clients-logo ul.border{border-bottom: none;}
+.about .our-clients .clients-logo li{ display: inline-block; border-right: solid 1px #d3d3d3; width:19.6%;}
+.about .our-clients .clients-logo li img{ width:100%;}
+.about .our-clients .clients-logo li:hover{ opacity:0.7;}
+.about .our-clients .clients-logo li:last-child{  border-right: none;}
+.about .team-members{}
+.about .team-members .team-sec{ float:left; width:33.33%;}
+.about .team-members .team-sec img{ width:100%;}
+.about .team-sec figure{ width:100% !important;}
+.about .what-we-do .stat {   margin:0 auto; text-align:center;}
+.highlight { padding:0px 0;  overflow:hidden;}
+.about .what-we-do .milestone-counter{ border-right:solid 1px #bbbbbc; float: left; width: 24.9%; padding: 58px 0 74px 0;}
+.about .what-we-do .milestone-counter.last{ border-right:none; }
+.about .what-we-do .milestone-counter span.stat-count{font-weight: 500; font-family: 'Raleway', sans-serif; font-size:75px;}
+.about .what-we-do .stat i { color:#f7c221; }
+.about .milestone-details {font-weight: 100; font-family: 'Raleway', sans-serif; font-size:24px;}
+.about .next-page{border-top:solid 1px #b5b5b6; border-bottom:solid 1px #b5b5b6; }
+.about .next-page .next-page-sec{ float:left; width:49.9%; border-right:solid 1px #b5b5b6; text-align:center; padding:100px 0; background:#f7f7f7;}
+.next-page .next-page-sec span{ font-size:14px; text-transform:uppercase;  color:#222222; font-family: 'Raleway', sans-serif; margin:0 0 15px 0; display:block;}
+.about .next-page .next-page-sec h2{  text-transform:uppercase; color:#222; font-family: 'Raleway', sans-serif; }
+.next-page .next-page-sec p{ font-size:20px; line-height:31px; font-family: 'Raleway', sans-serif; width:80%; display:inline-block; margin:30px 0 0 0; color:#222;}
+.about .next-page .next-page-sec span.view-more{ font-size:14px; border-bottom:solid 3px #ebebeb; font-family: 'Raleway', sans-serif; margin:40px 0 0 0; display: inline-block; padding:0 0 4px 0;}
+
+.about .next-page .next-page-sec:hover span{ color:#fff;}
+.about .next-page .next-page-sec:hover h2{ color:#fff;}
+.about .next-page .next-page-sec:hover p{ color:#fff;}
+.about .next-page .next-page-sec:hover span.view-more{ color:#fff;}
+
+
+/*..... Lates News ......*/
+.news{}
+.news .news-posts{ text-align:center; margin:-4px 0 0 0;}
+.news a.news-sec{ text-align:center; padding:100px 0; display:block;}
+.news a.news-sec .news-detail{ width:824px; display:inline-block;}
+.news a.news-sec h2{ color:#222; font-size:42px; font-family: 'Raleway', sans-serif; line-height: 51px; text-transform: capitalize; font-weight: 400;}
+.news .news-sec p{ font-size:20px; color:#333; margin:45px 0 0 0;}
+.news .news-sec ul{ margin:55px 0 0 0;}
+.news .news-sec li{ display:inline-block; margin:0 12px;}
+.news .news-sec li img{ border-radius:100%; margin:-11px 9px 0 0; float:left;}
+.news .news-sec ul li span.tit{ color:#727272; font-size:22px; font-family: 'Raleway', sans-serif; font-weight:100;}
+.news .news-sec ul li span{ font-size:30px; float: left; margin: 0 0 0 10px; color: #333;}
+.news .news-sec:hover h2{ color:#fff; }
+.news a.news-sec:hover p{ color:#fff; }
+.news .news-sec:hover span{ color:#fff; }
+.news .news-sec:hover span.tit{ color:#fff; }
+.news .more-posts{ padding:80px 0;}
+.news .more-posts .newest{ float:left; color:#727272; font-family: 'Raleway', sans-serif; font-size:22px;}
+.news .more-posts .older{ float:right; color:#727272; font-family: 'Raleway', sans-serif; font-size:22px;}
+span.icon-arrow-left14{ float:left;}
+span.icon-uniF2AB{ float:right;}
+.news .more-posts span{ font-size:33px; margin:-3px 8px 0 8px;}
+.news .more-posts a:hover{ color:#000;}
+
+
+
+/*..... News Detail ......*/
+.news-detail-page{}
+.post-detail{ margin: 72px 0; float:left;}
+.post-detail .detail{margin:48px 0 0 0; }
+.post-detail .detail span.date{ color:#929191; font-size:17px; display:block;}
+.post-detail .detail span.author{ color:#5c5c5c; }
+.post-detail .detail h3{ color:#222222; font-weight:800; text-transform:capitalize; margin:28px 0 0 0; }
+.post-detail .detail p{ color:#333333; font-size:20px; line-height:31px; font-weight: 400; margin: 8px 0 0 0;}
+.post-detail .detail .quote{ background:url(../images/quote.jpg) no-repeat 0 30px; display:block; font-family: 'Raleway', sans-serif; font-size:24px; padding: 24px 0px 24px 46px;}
+
+.share-buttons{ border:solid 1px #c7c7c7; width:100%; margin:90px 0 0 0; padding:26px 0;}
+.share-buttons span{ font-weight:700; font-family: 'Raleway', sans-serif; float:left; font-size:24px; margin:12px 0 0 20px;}
+.share-buttons ul{ float:right; margin:0 20px 0 0;}
+.share-buttons ul li{ float:left;}
+.share-buttons ul li a{ color:#929191; font-size:16px; font-family: 'Raleway', sans-serif; text-transform:uppercase; border:solid 1px #c7c7c7; padding: 16px 120px; float: left; margin:0 0 0 20px;}
+.share-buttons ul li a.fb:hover{ background:#214285; border:solid 1px #214285; color:#fff;}
+.share-buttons ul li a.tw:hover{ background:#1eaae9; border:solid 1px #1eaae9; color:#fff;}
+.share-buttons ul li a.pt:hover{ background:#ce1c28; border:solid 1px #ce1c28; color:#fff;}
+
+.comments { margin: 50px 0 0 0; float: left;}
+.comments h3{color:#222222; font-weight:800; text-transform:capitalize; margin:28px 0 30px 0; }
+.comments .comment-sec{ border: solid 1px #c7c7c7; padding:28px 24px; margin:0 0 25px 0;}
+.comments .comment-sec img{ float:left;}
+.comments .comment-sec .detail{ float: right; width: 93%; margin: 0 0 0 0;}
+.comments .comment-sec .detail span.name{ font-size: 22px; font-weight: 700; display: block;}
+.comments .comment-sec .detail span.date-time{ font-size:14px; color:#626262; display:block;}
+.comments .comment-sec .detail a{ background:#000; font-size:14px; color:#fff; float: right; margin: -40px 0 0 0; padding: 5px 10px;}
+
+.leave-msg h3{color:#222222; font-weight:800; text-transform:capitalize; margin:28px 0 30px 0; }
+.leave-msg .fields{}
+.leave-msg .fields input[type=text]{ border: solid 1px #b1b1b1; width: 31%; height: 47px; padding: 0 0 0 16px; color: #767676; font-size: 16px; margin: 0 14px 0 0;} 
+.leave-msg .fields input[type=text].last{ margin:0px;}
+.leave-msg textarea{ border: solid 1px #b1b1b1; height: 247px; padding: 10px 1%; color: #767676; font-size: 16px; margin: 0 14px 0 0; font-family: 'Source Sans Pro', sans-serif; float: left; width: 98%; margin:18px 0 0 0;} 
+.leave-msg input[type=submit]{ border: none; padding:20px 70px; color: #fff; font-size: 16px; margin: 16px 0px 0 0; background:#222222; text-transform:uppercase; float:left; cursor:pointer;} 
+
+
+
+/*..... Contact Us ......*/
+.contact-us .we-do .detail{ float:none; text-align:center; margin:35px 0 0 0;}
+.contact-us .we-do .detail p{ width: auto; float: none; }
+.contact-us .get-touch { float:left; width:50%;}
+.contact-us .get-touch .hello-us{ background: url(../images/hello-us.jpg) no-repeat fixed center left; width: 100%; height: 764px; float: left; text-align: center; background-size: 50%;}
+.contact-us .get-touch .hello-us .detail{ text-align: center; width: 100%; display: inline-block; margin:20% 0 0 0;} 
+.contact-us .get-touch .hello-us .detail span.met-us{ font-family: 'Raleway', sans-serif; font-size:54px; }
+.contact-us .get-touch .hello-us .detail .social-icons{ margin:40px 0 0 0;}
+.contact-us .get-touch .hello-us .detail .social-icons a{ padding: 0px; width: auto; font-size: 36px; margin: 0 5px;}
+.contact-us .get-touch .hello-us .detail .social-icons span{width: 62px; background: #fff; height: 62px; font-size: 36px; border: solid 3px #111; border-radius: 100%; padding: 24px 24px; color:#111111; }
+.contact-us .get-touch .hello-us .detail .social-icons span:hover{color:#fff;}
+.contact-us .contact-form{ width:50%; float:right; height:764px; background:#fbfbfb; text-align:center;}
+.contact-us .contact-form .fields{ width:82%; display:inline-block; margin:5% 0 0 0;}
+.contact-us .contact-form .fields input[type=text]{ width:96%; min-height:56px; font-size:18px; color:#5b5b5b; border:solid 2px #d3d3d3; margin: 0 0 20px 0; padding: 0 2%; font-family: 'Source Sans Pro', sans-serif; font-weight:100;} 
+.contact-us .contact-form .fields select{ width:100%; min-height:56px; font-size:18px; color:#5b5b5b; border:solid 2px #d3d3d3; margin: 0 0 20px 0; padding: 0 2%; font-family: 'Source Sans Pro', sans-serif; font-weight:100;}
+.contact-us .contact-form .fields textarea{ width:96%; min-height:215px; font-size:18px; color:#5b5b5b; border:solid 2px #d3d3d3; margin: 0 0 20px 0; padding: 2% 2%; font-family: 'Source Sans Pro', sans-serif; font-weight:100;}
+.contact-us .contact-form .fields input[type=submit]{ width:100%; font-size:20px; color:#fff; border:none; margin: 0 0 0 0; padding: 2.6% 0; font-family: 'Source Sans Pro', sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;} 
+.map { position: relative; min-height: 593px; }
+#map,#map-blue,#map2,#map3,.map iframe { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border: 0; }
+
+
+
+/*..... Project Detail ......*/
+.pro-detail-sec{ text-align:center; padding:100px 0;}
+.pro-detail-sec h2{}
+.pro-detail-sec .pro-text{ margin:18px 0 0 0;}
+.pro-detail-sec .pro-text span{ font-size: 15px; display: block; color: #787878; line-height: 33px; letter-spacing: 2px;}
+.pro-detail-sec .pro-text a{color: #787878; text-decoration:underline;}
+.pro-detail-sec p{width: 65%; display: inline-block; margin: 15px 0 0 0; line-height: 25px;}
+.pro-detail-sec .social-with-number{ margin:48px 0 0 0;} 
+.pro-detail-sec .social-with-number li { display:inline-block;padding: 0 6px 0 0;}
+.pro-detail-sec .social-with-number li a{ padding: 6px 11px 6px 28px; border: 1px solid #c6c6c6; min-width: 62px; border-radius: 5px; color: #383838; font-size: 14px; display: flex;}
+.pro-detail-sec .social-with-number li span{ font-size: 18px; margin: 0 7px 0 0;}
+.pro-detail-sec .social-with-number li a i{ margin:0 10px 0 0;}
+.pro-detail-sec .social-with-number li a.twitter:hover{ background:#07a2dc; color:#fff; border-color:#07a2dc}
+.pro-detail-sec .social-with-number li a.facebook:hover{ background:#456098; color:#fff; border-color:#456098}
+.pro-detail-sec .social-with-number li a.google-plus:hover{ background:#d24435; color:#fff; border-color:#d24435}
+.pro-detail-sec .social-with-number li a.mouth:hover{ background:#333; color:#fff; border-color:#333}
+.pro-detail-sec .social-simple li a.dribble:hover{ color:#ff69a2;}
+.pro-detail-sec .social-simple li a.twitter:hover{ color:#35c7f7;}
+.pro-detail-sec .social-simple li a.behance:hover{ color:#0d81f0;}
+.project-detail .two-imgs img{ width:50%; float:left;}
+.project-detail .client-feedback{ padding:100px 0; text-align:center;}
+.project-detail .client-feedback .stars{ margin:0 0 8px 0;}
+.project-detail .client-feedback .stars span{ font-size:32px;  margin:0 2px;}
+.project-detail .client-feedback p{ font-size:22px; font-family: 'Raleway', sans-serif; width: 82%; display: inline-block; margin: 28px 0 0 0;}
+.project-detail .client-feedback span.client-name{ font-style:italic; font-size:16px; color:#6a6a6a; display:block; margin:18px 0 0 0;}
+.project-detail .next-page-sec{ background:#fff !important;}
+.scroll-page{ text-align: center; display: block; margin: -42px 0 0 0;}
+.scroll-page img{ text-align: center; display: inline-block;}
+
+
+.project-detail2 .sub-banner{ background:#f3ab00; text-align:center; padding:285px 0;}
+.project-detail2 .sub-banner .banner-detail{ }
+.project-detail2 .sub-banner .banner-detail .pro-logo{ width:auto; }
+.project-detail2 .sub-banner .banner-detail span.work{ font-size:14px; text-transform:uppercase; color:#fff; font-family: 'Raleway', sans-serif; display:block; margin:15px 0 7px 0;}
+.project-detail2 .sub-banner .banner-detail span.pro-title{ font-size:75px; text-transform:uppercase; color:#fff; font-family: 'Raleway', sans-serif; font-weight:900;}
+.project-detail2 .about-project{ background:#222428; padding:100px 0; text-align:center;}
+.project-detail2 .about-project h2{ color:#fff;}
+.project-detail2 .about-project p{ color:#fff; width:65%; display:inline-block; margin:20px 0 0 0;}
+.project-detail2 .about-project img{ margin:120px 0 0 0; width:100%;}
+.project-detail2 .page-builder{ text-align:center; padding:100px 0 0 0;}
+.project-detail2 .page-builder .browser{ margin:62px 0 0 0; text-align:center; display:inline-block;}
+.project-detail2 .page-builder .browser img{ display:block; width:100%;}
+.project-detail2 .page-builder h2{ color:#222222;}
+.project-detail2 .page-builder p{ color:#222222; margin:15px 0 0 0; width: 70%; display: inline-block;}
+.project-detail2 .client-feedback2{ padding:100px 0; text-align:center; margin: -4px 0 0 0;}
+.project-detail2 .client-feedback2 h2{ color:#fff;}
+.project-detail2 .client-feedback2 .stars{ margin:0 0 8px 0;}
+.project-detail2 .client-feedback2 .stars span{ font-size:32px; color:#ffffff; margin:0 2px;}
+.project-detail2 .client-feedback2 p{ font-size:22px; font-family: 'Raleway', sans-serif; width: 82%; display: inline-block; margin: 28px 0 0 0; color:#ffffff;}
+.project-detail2 .client-feedback2 span.client-name{ font-style:italic; font-size:16px; color:#ffffff; display:block; margin:18px 0 0 0;}
+

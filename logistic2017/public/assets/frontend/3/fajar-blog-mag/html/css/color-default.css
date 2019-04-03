@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Default color Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Color Scheme
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+# color			#ff7524
+# Dark color 
+  for borders	#d9311b
+# Light color 
+  for borders	#ff7260
+
+-------------------------------------------------------------------*/
+
+.navi ul li ul li:hover { background: #ff7524; }
+.Flat_mega_menu ul li a:hover{ color:#ff7524; }
+.feat-sec a.feat-title:hover{ color:#ff7524;} 
+.featured .feat-sec a:hover{ color:#ff7524 ; }
+.featured .feat-sec a:hover i{ text-shadow: 1px 1px 0 #ff7524,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #ff7524, 1px -1px 0 #ff7524, -1px  1px 0 #ff7524, 1px  1px 0 #ff7524; }
+     a.small-title:hover{ color:#ff7524;}
+  .news-sec a.small-title:hover{ color:#ff7524;}
+ul.post-icons a:hover i{ text-shadow: 1px 1px 0 #ff7524,  /* Simulated effect for Firefox and Opera    and nice enhancement for WebKit */
+   -1px -1px 0 #ff7524, 1px -1px 0 #ff7524, -1px  1px 0 #ff7524, 1px  1px 0 #ff7524; }
+ul.post-icons a:hover{ color:#ff7524; }
+.articles .arti-sec a.small-title:hover{ color:#ff7524;}
+.footer2 .about-us a{ color:#ff7524; }
+.feat-posts a.title:hover{ color:#ff7524;}
+.carousel-caption a:hover{   color:#ff7524;}
+.footer .latest-post .pos-sec .detail a:hover{ color:#ff7524;}
+.footer .latest-post .social-icons a:hover{border:solid 3px #ff7524; color:#ff7524; }
+.tags-sec a:hover{ color:#ff7524; border:solid 1px #ff7524; }
+.most-comments .comments i{	color:#ff7524; }
+.caegory li a:hover{ color:#ff7524; }
+.pcss3t-theme-1 > input:checked + label { 	color: #ff7524;}
+.right-sec .form input[type=submit]:hover{ background:#ff7524;}
+.rating span.rate{ color:#ff7524; }
+.expand {background:#ff7524;}
+.Flat_mega_menu ul li .submenu.one_col li:hover > a,
+.Flat_mega_menu ul li .submenu.two_col li:hover > a {color: #ff7524; border-bottom: solid 1px #ff7524;}
+.Flat_mega_menu ul li .submenu.four_col li:hover a {color: #ff7524;	border-bottom: solid 1px #ff7524;}
+.Flat_mega_menu ul li .submenu.img_container.half .two_col li:hover a { color: #ff7524;	border-bottom: 1px solid #ff7524;}
+.top-bar .top-right .demos a:hover{	background:#ff7524; }
+.home2-posts .post-sec .detail a.read-more{ background: #ff7524;}
+ul.icons-sec a:hover{ color:#ff7524; }
+ul.icons-sec a:hover i{ text-shadow: 1px 1px 0 #ff7524,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #ff7524, 1px -1px 0 #ff7524, -1px  1px 0 #ff7524, 1px  1px 0 #ff7524; }
+.more-posts a.older-posts {background: #ff7524; }
+.more-posts a.new-posts {background: #ff7524;}
+.more-posts a:hover{ background: #222; transition: background-color 0.5s ease;}
+.footer .latest-tweets a{	color:#ff7524;}
+.footer .latest-tweets span.date{ 	color:#ff7524;}
+.footer .latest-tweets i{ 	color:#ff7524;}
+.main3-posts .post-sec .detail .text a:hover{ color:#ff7524;}
+.carousel-caption a.read-btn:hover{ background:#ff7524; color:#fff;}
+.cbp-l-filters-alignLeft .cbp-filter-item-active {background-color:#ff7524; border:1px solid #ff7524;}
+.load-more a:hover{ background:#ff7524; border:solid 1px #ff7524;}
+.main5-posts .post-sec .detail a:hover{ color:#ff7524;}
+.pagination ul a.sel{ background:#ff7524; border: solid 1px #ff7524;}
+.pagination ul a:hover{ background:#ff7524; border: solid 1px #ff7524;}
+.contact-us input[type=submit]:hover{background:#ff7524;}
+.post-detail a{ color:#ff7524;}
+.post-detail a:hover{ text-decoration:underline; color:#ff7524;}
+.post-detail .tags a:hover{background:#ff7524; border:solid 1px #ff7524;}
+.comments-sec .user-comment a:hover{color:#ff7524;}
+.leave-form input[type=submit]:hover{ background:#ff7524;}
+.videoGallery .rsThumb.rsNavSelected {  background-color: #ff7524;}
+
+
+.color-switcher h5{ background:#ff7524;}
+.picker_close i {	background:#ff7524;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

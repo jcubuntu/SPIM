@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Blue color Stylesheet]
+
+Project:	FAJAR
+Version:	1.0
+Last change:	Initial RELEASED 
+Primary use:	Color Scheme
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+-------------------------------------------------------------------*/
+
+.navi ul li ul li:hover { background: #0179f3; }
+.Flat_mega_menu ul li a:hover{ color:#0179f3; }
+.feat-sec a.feat-title:hover{ color:#0179f3;} 
+.featured .feat-sec a:hover{ color:#0179f3 ; }
+.featured .feat-sec a:hover i{ text-shadow: 1px 1px 0 #0179f3,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #0179f3, 1px -1px 0 #0179f3, -1px  1px 0 #0179f3, 1px  1px 0 #0179f3; }
+     a.small-title:hover{ color:#0179f3;}
+  .news-sec a.small-title:hover{ color:#0179f3;}
+ul.post-icons a:hover i{ text-shadow: 1px 1px 0 #0179f3,  /* Simulated effect for Firefox and Opera    and nice enhancement for WebKit */
+   -1px -1px 0 #0179f3, 1px -1px 0 #0179f3, -1px  1px 0 #0179f3, 1px  1px 0 #0179f3; }
+ul.post-icons a:hover{ color:#0179f3; }
+.articles .arti-sec a.small-title:hover{ color:#0179f3;}
+.footer2 .about-us a{ color:#0179f3; }
+.feat-posts a.title:hover{ color:#0179f3;}
+.carousel-caption a:hover{   color:#0179f3;}
+.footer .latest-post .pos-sec .detail a:hover{ color:#0179f3;}
+.footer .latest-post .social-icons a:hover{border:solid 3px #0179f3; color:#0179f3; }
+.tags-sec a:hover{ color:#0179f3; border:solid 1px #0179f3; }
+.most-comments .comments i{	color:#0179f3; }
+.caegory li a:hover{ color:#0179f3; }
+.pcss3t-theme-1 > input:checked + label { 	color: #0179f3;}
+.right-sec .form input[type=submit]:hover{ background:#0179f3;}
+.rating span.rate{ color:#0179f3; }
+.expand {background:#0179f3;}
+.Flat_mega_menu ul li .submenu.one_col li:hover > a,
+.Flat_mega_menu ul li .submenu.two_col li:hover > a {color: #0179f3; border-bottom: solid 1px #0179f3;}
+.Flat_mega_menu ul li .submenu.four_col li:hover a {color: #0179f3;	border-bottom: solid 1px #0179f3;}
+.Flat_mega_menu ul li .submenu.img_container.half .two_col li:hover a { color: #0179f3;	border-bottom: 1px solid #0179f3;}
+.top-bar .top-right .demos a:hover{	background:#0179f3; }
+.home2-posts .post-sec .detail a.read-more{ background: #0179f3;}
+ul.icons-sec a:hover{ color:#0179f3; }
+ul.icons-sec a:hover i{ text-shadow: 1px 1px 0 #0179f3,    /* Simulated effect for Firefox and Opera       and nice enhancement for WebKit */
+   -1px -1px 0 #0179f3, 1px -1px 0 #0179f3, -1px  1px 0 #0179f3, 1px  1px 0 #0179f3; }
+.more-posts a.older-posts {background: #0179f3; }
+.more-posts a.new-posts {background: #0179f3;}
+.more-posts a:hover{ background: #222; transition: background-color 0.5s ease;}
+.footer .latest-tweets a{	color:#0179f3;}
+.footer .latest-tweets span.date{ 	color:#0179f3;}
+.footer .latest-tweets i{ 	color:#0179f3;}
+.main3-posts .post-sec .detail .text a:hover{ color:#0179f3;}
+.carousel-caption a.read-btn:hover{ background:#0179f3; color:#fff;}
+.cbp-l-filters-alignLeft .cbp-filter-item-active {background-color:#0179f3; border:1px solid #0179f3;}
+.load-more a:hover{ background:#0179f3; border:solid 1px #0179f3;}
+.main5-posts .post-sec .detail a:hover{ color:#0179f3;}
+.pagination ul a.sel{ background:#0179f3; border: solid 1px #0179f3;}
+.pagination ul a:hover{ background:#0179f3; border: solid 1px #0179f3;}
+.contact-us input[type=submit]:hover{background:#0179f3;}
+.post-detail a{ color:#0179f3;}
+.post-detail a:hover{ text-decoration:underline; color:#0179f3;}
+.post-detail .tags a:hover{background:#0179f3; border:solid 1px #0179f3;}
+.comments-sec .user-comment a:hover{color:#0179f3;}
+.leave-form input[type=submit]:hover{ background:#0179f3;}
+.videoGallery .rsThumb.rsNavSelected {  background-color: #0179f3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

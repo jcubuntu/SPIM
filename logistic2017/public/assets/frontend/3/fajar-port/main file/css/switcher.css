@@ -1,0 +1,122 @@
+/*color switcher*/
+.color-switcher {
+	width: 234px;
+	position:fixed;
+	left: -235px;
+	top: 10%;
+	background: #f5f5f5;
+	z-index: 999;
+	padding:0 0 5px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.color-switcher h5 {
+	  font-size: 19px;
+  margin-top: -1px;
+  padding: 15px 14px;
+  color: #FFFFFF;
+  background: #676767;
+}
+.color-switcher p {
+	color: #595959;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+}
+
+.picker_close {
+    height: 52px;
+    position: absolute;
+    right: -50px;
+    text-align: center;
+    top:50%;
+	margin-top: -25px;
+    width: 50px;
+	color:#fff !important;
+	top:-1px; margin-top:0; background: #676767;
+}
+.picker_close i {
+	font-size:30px;
+	margin-top:9px;
+	display:block;
+}
+.picker_close:focus i{color:#fff;} 
+.position {
+	left: 0;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+
+}
+.position .picker_close{ top:-1px; margin-top:0; background: #676767;   border-left: solid 1px #888;}
+.theme-colours{
+	display: table;
+	padding: 10px 17px 15px;
+	text-align: left;
+
+	width:100%;
+
+}
+.theme-colours ul {
+	list-style:none;
+	padding:0;
+}
+.theme-colours ul li {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.theme-colours ul li a {
+	display: block;
+	  width: 35px;
+  height: 32px;
+	outline: none;
+}
+.theme-colours ul li:nth-child(5n+5){ margin-right:0;}
+
+.theme-colours ul li a.default {
+	background: #ef4035;
+}
+.theme-colours ul li a.green {
+	background: #9cba36;
+}
+.theme-colours ul li a.yellow {
+	background: #f6c815;
+}
+.theme-colours ul li a.dark-blue {
+	background: #3a539b;
+}
+.theme-colours ul li a.light-blue {
+	background: #2991d6;
+}
+.theme-colours ul li a.orange {
+	background: #e67e22;
+}
+.theme-colours ul li a.pink {
+	background: #e9266f;
+}
+
+.theme-colours ul li a.brown {
+	background: #825339;
+}
+
+.theme-colours ul li a.dark {
+	background: #000000;
+}
+
+.theme-colours ul li a.purple {
+	background: #9b59b6;
+}
+
+span.note {
+  float: left;
+  width: 84%;
+  font-size: 14px;
+  margin: 9px 0 0 0;
+}

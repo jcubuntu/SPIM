@@ -1,0 +1,1 @@
+<?phpuse App\Models\Item;use App\Models\Warehouse;use Illuminate\Http\Request;use App\Models\Product;Route::get('reset', function(Request $request) {	Item::where('status', Item::STATUS_IN_WAREHOUSE)->update(['status' => 5]);	return redirect()->route('warehouse.monitor');});

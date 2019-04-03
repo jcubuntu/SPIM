@@ -1,0 +1,26 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+::selection{ background:#e67e22; color:#fff;}
+.header .navi li.select a{color:#e67e22;}
+.creative-studio .icons span{ color: #e67e22;}
+.header .navi li a:hover{color:#e67e22;}
+.cd-primary-nav { background: #e67e22;}
+.cd-primary-nav .social-icons span{ background:#e67e22; }
+.cd-half-block .cd-primary-nav { background: none;}
+.sub-banner .text h1{ color:#e67e22; }
+.about .we-do{ background:#e67e22;}
+.about .our-plans .plan-sec span{ color:#e67e22;}
+.about .next-page .next-page-sec span.view-more{ color:#e67e22; }
+.about .next-page .next-page-sec:hover{background:#e67e22;}
+.news a.news-sec:hover{ background:#e67e22;}
+.comments .comment-sec .detail a:hover{ background:#e67e22;}
+.leave-msg input[type=submit]:hover{ background:#e67e22; } 
+.contact-us .get-touch .hello-us .detail .social-icons span:hover{background: #e67e22; border:solid 3px #e67e22;}
+.contact-us .contact-form .fields input[type=submit]{ background:#e67e22;}
+.project-detail2 .client-feedback2{ background:#e67e22; }
+.project-detail .next-page-sec:hover{ background:#e67e22 !important;}
+.project-detail .client-feedback .stars span{ color:#e67e22; }
+.pro-detail-sec .pro-text a:hover{color: #e67e22; }
