@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:mega",
+    "configuration": "cpu=atmega2560",
+    "sketch": "MEGA_Robot/MEGA_Robot.ino",
+    "port": "/dev/cu.usbserial-1420"
+}

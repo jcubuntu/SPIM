@@ -26,7 +26,7 @@
 #define S3  analogRead(A2)
 #define S4  analogRead(A3)
 
-#define UP      90
+#define UP      138
 #define DOWN    -90
 
 #define STOP {  motorControl(0,0);  }
@@ -240,10 +240,12 @@ void turnRight(int turnSpeed){
 
 void inComming(int x, int y){
   // LIFT UP
-  delay(1000);
+  delay(400);
+  
   moveAction = GOY;
   liftControl(UP); delay(1100); liftControl(0);
-  turnRight(100);  motorControl(100,-100); delay(300); turnRight(100);
+  motorControl(-120,-120); delay(600); STOP 
+  turnRight(100);  //turnRight(100);
   trackCrossX(y,100,100,200);
   turnLeft(100);
   moveAction = GOX;
@@ -262,9 +264,10 @@ void inComming(int x, int y){
 }
 
 void outting(int x, int y){
-  delay(1000);
+  delay(400);
+   motorControl(-120,-120); delay(600); STOP 
   moveAction = GOY;
-  turnRight(100);  motorControl(100,-100); delay(500); turnRight(100);
+  turnRight(100);   //turnRight(100);
   trackCrossX(y,100,100,200);
   turnLeft(100);
   moveAction = GOX;
@@ -282,6 +285,7 @@ void outting(int x, int y){
   moveAction = BACKY;
   trackCrossX(y,100,100,200);
   liftControl(DOWN); delay(1050); liftControl(0);
+  delay(3000);
 
 }
 
